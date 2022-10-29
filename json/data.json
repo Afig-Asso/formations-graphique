@@ -1,0 +1,116 @@
+{
+    "Listing": {
+        "IIA": {
+            "Title": "Image et Intelligence Artificielle",
+            "url": "https://www.u-bourgogne.fr/images/stories/odf/master/ff-image-intelligence-artificielle-m2.pdf",
+            "City": "Dijon",
+            "Keywords": "analyse et synth\u00e8se d'images, reconstruction 3D, animation, r\u00e9alit\u00e9 virtuelle et augment\u00e9e, outils de l'intelligence artificielle.",
+            "University": "Universit\u00e9 de Bourgogne"
+        },
+        "MoSIG": {
+            "Title": "Master of Science in Informatics at Grenoble",
+            "url": "https://mosig.imag.fr/",
+            "Keywords": "computer vision, computer graphics, autonomous robotics, HCI, medical imaging, simulation, machine learning.",
+            "City": "Grenoble",
+            "University": "Universit\u00e9 Grenoble Alpes, Grenoble INP",
+            "International": null,
+            "Speciality": [
+                {
+                    "HDWI": null,
+                    "Title": "Human and Digital World Interactions: Robotics, Augmented and Virtual Reality, Perception",
+                    "url": "https://mosig.imag.fr/HDW/HDW"
+                }
+            ]
+        },
+        "ISICG": {
+            "Title": "Informatique, Synth\u00e8se d'Images et Conception Graphique",
+            "url": "https://www.unilim.fr/isicg/Modules_et_competences.html",
+            "Keywords": "Rendu, Mod\u00e9lisation, Simulation, G\u00e9om\u00e9trie, Production visuelle",
+            "City": "Limoges",
+            "University": "University de Limoges, Facult\u00e9 des Sciences &amp; Techniques"
+        },
+        "Gamagora": {
+            "Title": "Ing\u00e9nierie du jeu vid\u00e9o",
+            "url": "https://icom.univ-lyon2.fr/formation/master-2-informatique-gamagora-1",
+            "City": "Lyon",
+            "Keywords": "jeux vid\u00e9os, rendu, IA, moteur physique",
+            "University": "Universit\u00e9 Lumi\u00e8re Lyon 2"
+        },
+        "ID3D": {
+            "Title": "Master Image, D\u00e9veloppement et Technologie 3D",
+            "url": "http://master-info.univ-lyon1.fr/ID3D/",
+            "City": "Lyon",
+            "Keywords": "Mod\u00e9lisation g\u00e9om\u00e9trique, maillages, vision, VR/AR, jeux vid\u00e9os, imagerie m\u00e9dicale.",
+            "University": "Universit\u00e9 Lyon 1, Ecole Centrale, Universit\u00e9 Lyon 2, CPE Lyon."
+        },
+        "GIG": {
+            "Title": "G\u00e9om\u00e9trie et Informatique Graphique",
+            "url": "https://formations.univ-amu.fr/fr/master/5SIN/PRSIN5AF",
+            "City": "Marseille",
+            "Keywords": "Mod\u00e8les 3D, analyse de formes 3D, synth\u00e8se d'images, reconstruction 3D, animation, r\u00e9alit\u00e9 virtuelle et augment\u00e9e.",
+            "University": "Aix-Marseille Universit\u00e9"
+        },
+        "IMA": {
+            "Title": "Image, vision par ordinateur, informatique graphique",
+            "url": "https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-ima",
+            "City": "Paris",
+            "Keywords": "Imagerie m\u00e9dicale, Analyse d'image, Vision, Informatique graphique.",
+            "University": "UPMC, T\u00e9l\u00e9com ParisTech, ENSTA, ParisTech."
+        },
+        "IGD": {
+            "Title": "Interaction, Graphics &amp; Design",
+            "City": "Paris",
+            "City-detail": "Palaiseau",
+            "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/master-year-2-interaction-graphics-design",
+            "url-class": "https://diva.telecom-paristech.fr/igd/allcourses.html",
+            "International": null,
+            "Keywords": "Computer Graphics, Interactive 3D application, Computer Animation, Geometry Processing, Games, HMI, Interface.",
+            "University": "IP Paris: Telecom Paris, Ecole Polytechnique, Telecom Sud Paris"
+        },
+        "MVA": {
+            "Title": "Math\u00e9matique, Vision, Apprentissage",
+            "url": "http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/",
+            "City": "Paris",
+            "City-detail": "Gif sur Yvette",
+            "Keywords": "Vision, Apprentissage, Analyse d'Image, Image M\u00e9dicale, G\u00e9om\u00e9trie",
+            "University": "Universit\u00e9 Paris Saclay: ENS Paris-Saclay, CentraleSup\u00e9lec, Mines ParisTech"
+        },
+        "RVSI": {
+            "Title": "R\u00e9alit\u00e9 Virtuelle et Syst\u00e8mes Intelligents",
+            "url": "https://www.universite-paris-saclay.fr/en/education/master/electrical-engineering/m2-virtual-reality-and-intelligent-systems",
+            "City": "Paris",
+            "City-detail": "Evry",
+            "Keywords": "Vision par ordinateur, r\u00e9alit\u00e9 augment\u00e9e, interaction multi sensorielle, r\u00e9alit\u00e9 virtuelle",
+            "University": "Universit\u00e9 Paris-Saclay, ENSIIE, Universit\u00e9 d'Evry, T\u00e9l\u00e9com SudParis"
+        },
+        "SIF": {
+            "Title": "Research Master's in Computer Science",
+            "url": "http://master.irisa.fr/index.php",
+            "City": "Rennes",
+            "International": null,
+            "Speciality": [
+                {
+                    "Image and Interactions": null,
+                    "Title": "Human and Digital World Interactions: Robotics, Augmented and Virtual Reality, Perception",
+                    "url": "http://master.irisa.fr/courses/index-rennes.php",
+                    "Keywords": "Computer Graphics, Virtual Reality, Computer Interaction, Vision, Graph, Animation.",
+                    "University": "Universit\u00e9 de Rennes 1, Universit\u00e9 de Bretagne Sud, ENS Rennes, INSA, CentraleSup\u00e9lec."
+                }
+            ]
+        },
+        "ISI": {
+            "Title": "Informatique et Sciences de l'Image",
+            "url": "http://master-informatique.unistra.fr/#isi",
+            "City": "Strasbourg",
+            "Keywords": "Mod\u00e9lisation g\u00e9om\u00e9trique, rendu, traitement d'images, CAO, multim\u00e9dia",
+            "University": "Universit\u00e9 de Strasbourg"
+        },
+        "INF-IGAI": {
+            "Title": "Master Informatique Graphique et Analyse d'Images",
+            "url": "https://departement-informatique.univ-tlse3.fr/master-igai/",
+            "City": "Toulouse",
+            "Keywords": "Mod\u00e9lisatoin g\u00e9om\u00e9trique, rendu, animation, game design, vision, audio-visuel num\u00e9rique, traitement du signal",
+            "University": "Universit\u00e9 Paul Sabatier"
+        }
+    }
+}
