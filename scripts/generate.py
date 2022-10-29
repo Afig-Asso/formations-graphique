@@ -100,8 +100,24 @@ def prettyMD_master(name, data, is_check_url):
     out += f'* **[&#91;{name}&#93;]({url})** - **{title}** ({city_txt}) \n'
     if international:
         out += display_optional("_Master International entièrement en anglais_")
+
     out += display_optional(keywords, pre='* Mot clés: _', post='_')
     out += display_optional(university, pre='* Universités partenaires: _', post='_')
+
+    if 'Speciality' in data:
+        out += display_optional('Spécialité:')
+        for speciality_name in  data['Speciality']:
+            speciality_element = data['Speciality'][speciality_name]
+            speciality_url = speciality_element['url']
+            speciality_title = speciality_element['Title']
+            speciality_keywords = get_optional('Keywords',speciality_element)
+            speciality_university = get_optional('University',speciality_element)
+
+            out += display_optional(f'**[&#91;{speciality_name}&#93;](speciality_url)** - **{speciality_title}**',indent=4)
+            out += display_optional(f'Mots clés: _{speciality_keywords}_',indent=6)
+            out += display_optional(speciality_university,indent=6, pre='* Universités partenaires: ',italic=True)
+
+
 
 
     out += '\n\n'

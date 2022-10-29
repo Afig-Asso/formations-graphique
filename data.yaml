@@ -10,14 +10,15 @@ Listing:
   MoSIG:
     Title: Master of Science in Informatics at Grenoble
     url: https://mosig.imag.fr/
-    Keywords: computer vision, computer graphics, autonomous robotics, HCI, medical imaging, simulation, machine learning.
     City: Grenoble
-    University: Université Grenoble Alpes, Grenoble INP
     International:
+    University: Université Grenoble Alpes, Grenoble INP
     Speciality: 
-      - HDWI:
+      HDWI:
         Title: "Human and Digital World Interactions: Robotics, Augmented and Virtual Reality, Perception"
         url: https://mosig.imag.fr/HDW/HDW
+        Keywords: computer vision, computer graphics, autonomous robotics, HCI, medical imaging, simulation, machine learning.
+        
           
   ISICG:
     Title: Informatique, Synthèse d'Images et Conception Graphique
@@ -86,11 +87,11 @@ Listing:
     City: Rennes
     International:
     Speciality: 
-      - Image and Interactions:
+      Image and Interactions:
         Title: "Human and Digital World Interactions: Robotics, Augmented and Virtual Reality, Perception"
         url: http://master.irisa.fr/courses/index-rennes.php
         Keywords: Computer Graphics, Virtual Reality, Computer Interaction, Vision, Graph, Animation.
-        University: Université de Rennes 1, Université de Bretagne Sud, ENS Rennes, INSA, CentraleSupélec.
+    University: Université de Rennes 1, Université de Bretagne Sud, ENS Rennes, INSA, CentraleSupélec.
 
   ISI:
     Title: Informatique et Sciences de l'Image

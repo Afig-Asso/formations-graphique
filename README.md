@@ -58,8 +58,10 @@
 
 * **[&#91;MoSIG&#93;](https://mosig.imag.fr/)** - **Master of Science in Informatics at Grenoble** (Grenoble) 
   * _Master International entièrement en anglais_
-  * Mot clés: _computer vision, computer graphics, autonomous robotics, HCI, medical imaging, simulation, machine learning._
   * Universités partenaires: _Université Grenoble Alpes, Grenoble INP_
+  * Spécialité:
+    * **[&#91;HDWI&#93;](speciality_url)** - **Human and Digital World Interactions: Robotics, Augmented and Virtual Reality, Perception**
+      * Mots clés: _computer vision, computer graphics, autonomous robotics, HCI, medical imaging, simulation, machine learning._
 
 
 * **[&#91;RVSI&#93;](https://www.universite-paris-saclay.fr/en/education/master/electrical-engineering/m2-virtual-reality-and-intelligent-systems)** - **Réalité Virtuelle et Systèmes Intelligents** (Paris, Evry) 
@@ -69,5 +71,9 @@
 
 * **[&#91;SIF&#93;](http://master.irisa.fr/index.php)** - **Research Master's in Computer Science** (Rennes) 
   * _Master International entièrement en anglais_
+  * Universités partenaires: _Université de Rennes 1, Université de Bretagne Sud, ENS Rennes, INSA, CentraleSupélec._
+  * Spécialité:
+    * **[&#91;Image and Interactions&#93;](speciality_url)** - **Human and Digital World Interactions: Robotics, Augmented and Virtual Reality, Perception**
+      * Mots clés: _Computer Graphics, Virtual Reality, Computer Interaction, Vision, Graph, Animation._
 
 

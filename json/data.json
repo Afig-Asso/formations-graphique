@@ -10,17 +10,16 @@
         "MoSIG": {
             "Title": "Master of Science in Informatics at Grenoble",
             "url": "https://mosig.imag.fr/",
-            "Keywords": "computer vision, computer graphics, autonomous robotics, HCI, medical imaging, simulation, machine learning.",
             "City": "Grenoble",
-            "University": "Universit\u00e9 Grenoble Alpes, Grenoble INP",
             "International": null,
-            "Speciality": [
-                {
-                    "HDWI": null,
+            "University": "Universit\u00e9 Grenoble Alpes, Grenoble INP",
+            "Speciality": {
+                "HDWI": {
                     "Title": "Human and Digital World Interactions: Robotics, Augmented and Virtual Reality, Perception",
-                    "url": "https://mosig.imag.fr/HDW/HDW"
+                    "url": "https://mosig.imag.fr/HDW/HDW",
+                    "Keywords": "computer vision, computer graphics, autonomous robotics, HCI, medical imaging, simulation, machine learning."
                 }
-            ]
+            }
         },
         "ISICG": {
             "Title": "Informatique, Synth\u00e8se d'Images et Conception Graphique",
@@ -88,15 +87,14 @@
             "url": "http://master.irisa.fr/index.php",
             "City": "Rennes",
             "International": null,
-            "Speciality": [
-                {
-                    "Image and Interactions": null,
+            "Speciality": {
+                "Image and Interactions": {
                     "Title": "Human and Digital World Interactions: Robotics, Augmented and Virtual Reality, Perception",
                     "url": "http://master.irisa.fr/courses/index-rennes.php",
-                    "Keywords": "Computer Graphics, Virtual Reality, Computer Interaction, Vision, Graph, Animation.",
-                    "University": "Universit\u00e9 de Rennes 1, Universit\u00e9 de Bretagne Sud, ENS Rennes, INSA, CentraleSup\u00e9lec."
+                    "Keywords": "Computer Graphics, Virtual Reality, Computer Interaction, Vision, Graph, Animation."
                 }
-            ]
+            },
+            "University": "Universit\u00e9 de Rennes 1, Universit\u00e9 de Bretagne Sud, ENS Rennes, INSA, CentraleSup\u00e9lec."
         },
         "ISI": {
             "Title": "Informatique et Sciences de l'Image",
