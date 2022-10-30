@@ -60,7 +60,7 @@
   * _Master International entièrement en anglais_
   * Universités partenaires: _Université Grenoble Alpes, Grenoble INP_
   * Spécialité:
-    * **[&#91;HDWI&#93;](speciality_url)** - **Human and Digital World Interactions: Robotics, Augmented and Virtual Reality, Perception**
+    * **[&#91;HDWI&#93;](https://mosig.imag.fr/HDW/HDW)** - **Human and Digital World Interactions: Robotics, Augmented and Virtual Reality, Perception**
       * Mots clés: _computer vision, computer graphics, autonomous robotics, HCI, medical imaging, simulation, machine learning._
 
 
@@ -73,7 +73,7 @@
   * _Master International entièrement en anglais_
   * Universités partenaires: _Université de Rennes 1, Université de Bretagne Sud, ENS Rennes, INSA, CentraleSupélec._
   * Spécialité:
-    * **[&#91;Image and Interactions&#93;](speciality_url)** - **Human and Digital World Interactions: Robotics, Augmented and Virtual Reality, Perception**
+    * **[&#91;Image and Interactions&#93;](http://master.irisa.fr/courses/index-rennes.php)** - **Human and Digital World Interactions: Robotics, Augmented and Virtual Reality, Perception**
       * Mots clés: _Computer Graphics, Virtual Reality, Computer Interaction, Vision, Graph, Animation._
 
 

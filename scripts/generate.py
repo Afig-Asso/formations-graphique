@@ -109,11 +109,13 @@ def prettyMD_master(name, data, is_check_url):
         for speciality_name in  data['Speciality']:
             speciality_element = data['Speciality'][speciality_name]
             speciality_url = speciality_element['url']
+            if is_check_url:
+                checkurl(speciality_url)
             speciality_title = speciality_element['Title']
             speciality_keywords = get_optional('Keywords',speciality_element)
             speciality_university = get_optional('University',speciality_element)
 
-            out += display_optional(f'**[&#91;{speciality_name}&#93;](speciality_url)** - **{speciality_title}**',indent=4)
+            out += display_optional(f'**[&#91;{speciality_name}&#93;]({speciality_url})** - **{speciality_title}**',indent=4)
             out += display_optional(f'Mots clés: _{speciality_keywords}_',indent=6)
             out += display_optional(speciality_university,indent=6, pre='* Universités partenaires: ',italic=True)
 
