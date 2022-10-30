@@ -1,5 +1,16 @@
 {
     "Listing": {
+        "Angoul\u00e8me": [
+            {
+                "Name": "JMIN",
+                "Title": "Master Jeux et M\u00e9dias Interactifs Num\u00e9riques",
+                "url": "https://enjmin.cnam.fr/formations/master-jeux-video/",
+                "url-class": "https://enjmin.cnam.fr/formations/master-jeux-video/programme/",
+                "Keywords": "Jeux Vid\u00e9os, Game Design, Ergonomie, Conception visuelle, Interface.",
+                "University": "CNAM, ENJMIN",
+                "Description": "Master professionel dans le domaine de la programmation de jeux vid\u00e9os. L'un des rare master publique du domaine."
+            }
+        ],
         "Dijon": [
             {
                 "Name": "IIA",
@@ -40,15 +51,18 @@
                 "Name": "ID3D",
                 "Title": "Master Image, D\u00e9veloppement et Technologie 3D",
                 "url": "http://master-info.univ-lyon1.fr/ID3D/",
+                "url-class": "http://master-info.univ-lyon1.fr/ID3D/#2",
                 "Keywords": "Mod\u00e9lisation g\u00e9om\u00e9trique, maillages, vision, VR/AR, jeux vid\u00e9os, imagerie m\u00e9dicale.",
-                "University": "Universit\u00e9 Lyon 1, Ecole Centrale, Universit\u00e9 Lyon 2, CPE Lyon."
+                "University": "Universit\u00e9 Lyon 1, Ecole Centrale, Universit\u00e9 Lyon 2, CPE Lyon.",
+                "Description": "Master d\u00e9di\u00e9 \u00e0 l'Informatique Graphique et \u00e0 l'Image avec des composantes avanc\u00e9s en mod\u00e9lisation et traitement de la g\u00e9om\u00e9trie. Sp\u00e9cialisation possible en en Mondes Virtuels en seconde ann\u00e9e."
             },
             {
                 "Name": "Gamagora",
                 "Title": "Ing\u00e9nierie du jeu vid\u00e9o",
                 "url": "https://icom.univ-lyon2.fr/formation/master-2-informatique-gamagora-1",
                 "Keywords": "jeux vid\u00e9os, rendu, IA, moteur physique",
-                "University": "Universit\u00e9 Lumi\u00e8re Lyon 2"
+                "University": "Universit\u00e9 Lumi\u00e8re Lyon 2",
+                "Description": "Master (uniquement 2\u00e8me ann\u00e9e pour le M2) d\u00e9di\u00e9 \u00e0 la programmation techniques de jeux vid\u00e9os. L'un des rare master publique du domaine."
             }
         ],
         "Marseille": [

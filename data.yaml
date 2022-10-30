@@ -1,4 +1,12 @@
 Listing:
+  Angoulème:
+    - Name: JMIN
+      Title: Master Jeux et Médias Interactifs Numériques
+      url: https://enjmin.cnam.fr/formations/master-jeux-video/
+      url-class: https://enjmin.cnam.fr/formations/master-jeux-video/programme/
+      Keywords: Jeux Vidéos, Game Design, Ergonomie, Conception visuelle, Interface.
+      University: "CNAM, ENJMIN"
+      Description: "Master professionel dans le domaine de la programmation de jeux vidéos. L'un des rare master publique du domaine."
 
   Dijon:
     - Name: IIA
@@ -31,13 +39,16 @@ Listing:
     - Name: ID3D
       Title: Master Image, Développement et Technologie 3D
       url: http://master-info.univ-lyon1.fr/ID3D/
+      url-class: http://master-info.univ-lyon1.fr/ID3D/#2
       Keywords: Modélisation géométrique, maillages, vision, VR/AR, jeux vidéos, imagerie médicale.
       University: Université Lyon 1, Ecole Centrale, Université Lyon 2, CPE Lyon.
+      Description: "Master dédié à l'Informatique Graphique et à l'Image avec des composantes avancés en modélisation et traitement de la géométrie. Spécialisation possible en en Mondes Virtuels en seconde année."
     - Name: Gamagora
       Title: Ingénierie du jeu vidéo
       url: https://icom.univ-lyon2.fr/formation/master-2-informatique-gamagora-1
       Keywords: jeux vidéos, rendu, IA, moteur physique
       University: Université Lumière Lyon 2
+      Description: "Master (uniquement 2ème année pour le M2) dédié à la programmation techniques de jeux vidéos. L'un des rare master publique du domaine."
 
   
   Marseille:
@@ -94,6 +105,8 @@ Listing:
       City-detail: Gif sur Yvette
       Keywords: Vision, Apprentissage, Analyse d'Image, Image Médicale, Géométrie
       University: "Université Paris Saclay: ENS Paris-Saclay, CentraleSupélec, Mines ParisTech"
+
+
 
   Rennes:
     - Name: SIF

@@ -5,6 +5,13 @@
 
 ## Listing 
 
+### Angoulème 
+
+* **[&#91;JMIN&#93;](https://enjmin.cnam.fr/formations/master-jeux-video/)** - **Master Jeux et Médias Interactifs Numériques** 
+  * _Master professionel dans le domaine de la programmation de jeux vidéos. L'un des rare master publique du domaine._
+  * [Listing des cours](https://enjmin.cnam.fr/formations/master-jeux-video/programme/)
+  * Mot clés: _Jeux Vidéos, Game Design, Ergonomie, Conception visuelle, Interface._
+  * Universités partenaires: _CNAM, ENJMIN_
 ### Dijon 
 
 * **[&#91;IIA&#93;](https://www.u-bourgogne.fr/images/stories/odf/master/ff-image-intelligence-artificielle-m2.pdf)** - **Image et Intelligence Artificielle** 
@@ -28,9 +35,12 @@
 ### Lyon 
 
 * **[&#91;ID3D&#93;](http://master-info.univ-lyon1.fr/ID3D/)** - **Master Image, Développement et Technologie 3D** 
+  * _Master dédié à l'Informatique Graphique et à l'Image avec des composantes avancés en modélisation et traitement de la géométrie. Spécialisation possible en en Mondes Virtuels en seconde année._
+  * [Listing des cours](http://master-info.univ-lyon1.fr/ID3D/#2)
   * Mot clés: _Modélisation géométrique, maillages, vision, VR/AR, jeux vidéos, imagerie médicale._
   * Universités partenaires: _Université Lyon 1, Ecole Centrale, Université Lyon 2, CPE Lyon._
 * **[&#91;Gamagora&#93;](https://icom.univ-lyon2.fr/formation/master-2-informatique-gamagora-1)** - **Ingénierie du jeu vidéo** 
+  * _Master (uniquement 2ème année pour le M2) dédié à la programmation techniques de jeux vidéos. L'un des rare master publique du domaine._
   * Mot clés: _jeux vidéos, rendu, IA, moteur physique_
   * Universités partenaires: _Université Lumière Lyon 2_
 ### Marseille 
