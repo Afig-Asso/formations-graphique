@@ -26,7 +26,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        python -m pip install pyyaml
+        python -m pip install pyyaml tqdm
     - name: Test access urls
       run: |
         python scripts/generate.py -C
