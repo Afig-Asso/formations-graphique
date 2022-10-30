@@ -56,7 +56,7 @@
   * _Master dédié à l'Informatique Graphique et à l'Image avec des composantes avancés en modélisation et traitement de la géométrie. Spécialisation possible en en Mondes Virtuels en seconde année._
   * [Listing des cours](http://master-info.univ-lyon1.fr/ID3D/#2)
   * Mot clés: _Modélisation géométrique, maillages, vision, VR/AR, jeux vidéos, imagerie médicale._
-  * Universités partenaires: _Université Lyon 1, Ecole Centrale, Université Lyon 2, CPE Lyon._
+  * Universités partenaires: _Université Lyon 1, Ecole Centrale._
   * Domaine du diplome: Informatique &#91;[Lien](https://www.trouvermonmaster.gouv.fr/master/universite-lyon-i/informatique-51?q=ID3D&position=0&layout=1)&#93;
 #### Autre master (professionalisant ou visant une autre spécialité) proposant des cours en IG 
 
