@@ -1,3 +1,27 @@
+# Documentation
+#
+#   nomVille:
+#      main/other: // main: Formation principales en IG
+#                  // other: Autres formations (autre qu'en informatique, ou dans des domaines spécialisés tel que le jeu vidéo)
+#        Name: // Sigle du master
+#        Title: // Nom complet de la formation
+#        url: // Page web de la formation
+#        url-class: // URL des cours
+#        Description: // Description courte de la formation
+#        Keywords: // Mots clés de la formation
+#        University: // Les universités partenaires
+#        url-gouv: // Lien du master sur la liste des masters nationaux - https://www.trouvermonmaster.gouv.fr/
+#        Diploma-domain: // Le domaine scientifique officiel du diplome (ex. "Sciences, Technologies, Santé" pour un diplome en informatique)
+#        Diploma-title: // L'intitulé officiel du diplome (Informatique, pour un diplome en informatique)
+#        Duration: // 2 pour M1 et M2, 1 pour M2 uniquement
+#        Speciality: // Dans le cas optionnel où le master est une mineur d'un master plus large
+#          sigleMinor: // Sigle de la mineur
+#            Title: // Titre complet de la mineur
+#            url: // Url de la mineur
+#            Keywords: //Mots clés de la mineur
+#
+
+
 Listing:
 
   Angoulème:
@@ -108,6 +132,7 @@ Listing:
         Diploma-domain: Sciences, Technologies, Santé
         Diploma-title: Informatique
         Duration: 2
+
       - Name: Ai-ViC
         Title: Artificial Intelligence and advanced Visual Computing
         City-detail: Palaiseau
