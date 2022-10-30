@@ -135,6 +135,7 @@ def prettyMD(data, is_check_url):
   
     out += '## Compléter/Modifier les informations \n'
     out += '  - Envoyez un email à contact[at]asso-afig.fr avec vos informations\n' 
+    out += '  - Ou faites un push-request sur le dépot.\n' 
     
     out += '\n\n'
 
@@ -162,13 +163,10 @@ def prettyMD(data, is_check_url):
     
     return out
 
+
 def export_html_static(data):
 
     print("html")    
-    #Sort by city:
-    # for name in data['Listing']:
-    #     city = data['Listing'][name]['City']
-    #     print(name, city)
     
 
 

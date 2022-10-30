@@ -1,6 +1,7 @@
 # Formations de Master en Informatique Graphique 
 ## Compléter/Modifier les informations 
   - Envoyez un email à contact[at]asso-afig.fr avec vos informations
+  - Ou faites un push-request sur le dépot.
 
 
 ## Listing 
