@@ -179,7 +179,10 @@ def prettyMD_master(data):
 
 def prettyMD(data):
 
-    out = '# Formations de Master en Informatique Graphique \n'
+    # badge Github check URL vality
+    out = '![URLs accessibles](https://github.com/Afig-Asso/formations-graphique/actions/workflows/url.yml/badge.svg) \n\n'
+
+    out += '# Formations de Master en Informatique Graphique \n'
   
     out += '## Compléter/Modifier les informations \n'
     out += '  - Envoyez un email à contact[at]asso-afig.fr avec vos informations\n' 

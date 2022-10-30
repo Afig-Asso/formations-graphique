@@ -1,3 +1,5 @@
+![URLs accessibles](https://github.com/Afig-Asso/formations-graphique/actions/workflows/url.yml/badge.svg) 
+
 # Formations de Master en Informatique Graphique 
 ## Compléter/Modifier les informations 
   - Envoyez un email à contact[at]asso-afig.fr avec vos informations
@@ -10,7 +12,7 @@
 
 #### Autre master (professionalisant ou visant une autre spécialité) proposant des cours en IG 
 
-* **[&#91;JMIN&#93;](https://enjmin.cnam.fr/formations/master-jeux-video/)** - **Jeux et Médias Interactifs Numériques** 
+* **[&#91;JMIN&#93;](https://enjmin.cnFam.fr/formations/master-jeux-video/)** - **Jeux et Médias Interactifs Numériques** 
   * _Master professionel dans le domaine de la programmation de jeux vidéos. Propose plusieurs parcours intégrant la programmation, mais également la conception visuelle et sonore, le design, l'ergonomie, et la gestion de projets dans les jeux._
   * [Listing des cours](https://enjmin.cnam.fr/formations/master-jeux-video/programme/)
   * Mot clés: _Jeux Vidéos, Game Design, Ergonomie, Conception visuelle, Interface._
