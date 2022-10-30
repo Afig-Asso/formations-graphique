@@ -24,7 +24,31 @@ def yaml_read_file(pathname):
 
 
 
-def checkurl(url):
+
+
+def recursive_url_get(data, all_urls):
+    if isinstance(data, dict):
+        labels = list(data.keys())
+        for label in labels:
+            if label=='url' or label.startswith('url-'):
+                url = data[label]
+                all_urls.append(url)
+
+        for element in data:
+            recursive_url_get(data[element], all_urls)
+    if isinstance(data,list):
+        for element in data:
+            recursive_url_get(element, all_urls)
+
+
+
+def get_all_urls(data):
+    all_urls = []
+    recursive_url_get(data, all_urls)
+    return all_urls
+
+
+def is_url_valid(url):
     try:
         url_open = urllib.request.urlopen(url)
     except urllib.error.HTTPError as e:
@@ -39,6 +63,19 @@ def checkurl(url):
         return False
     else:
         return True
+
+def check_urls(urls, exitOnError=False):
+    success = True
+    print('Check urls ...')
+    for url in tqdm.tqdm(urls):
+        ret = is_url_valid(url)
+        if ret!=True:
+            success=False
+
+    if exitOnError==True and success==False:
+        print("Exit due to Error")
+        exit(1)
+
 
 def get_key_list_to_string(key, data, separator=', '):
 
@@ -73,22 +110,15 @@ def display_optional(s, indent=2, pre='* ', post='', bold=False, italic=False):
     else:
         return ''
 
-def prettyMD_master(data, is_check_url):
+def prettyMD_master(data):
     out = ''
     
 
     name = data['Name']
     url = data['url']
-    if is_check_url:
-        checkurl(url)
-
     url_class = get_optional('url-class', data)
-    if is_check_url and url_class!='':
-        checkurl(url_class)
-
     url_gouv = get_optional('url-gouv', data)
-    if is_check_url and url_gouv!='':
-        checkurl(url_gouv)
+
 
     title = get_optional('Title',data)
     description = get_optional('Description', data)
@@ -132,8 +162,6 @@ def prettyMD_master(data, is_check_url):
         for speciality_name in  data['Speciality']:
             speciality_element = data['Speciality'][speciality_name]
             speciality_url = speciality_element['url']
-            if is_check_url:
-                checkurl(speciality_url)
             speciality_title = speciality_element['Title']
             speciality_keywords = get_optional('Keywords',speciality_element)
             speciality_university = get_optional('University',speciality_element)
@@ -149,7 +177,7 @@ def prettyMD_master(data, is_check_url):
 
     return out
 
-def prettyMD(data, is_check_url):
+def prettyMD(data):
 
     out = '# Formations de Master en Informatique Graphique \n'
   
@@ -164,8 +192,10 @@ def prettyMD(data, is_check_url):
     
 
     keys = sorted(list(data['Listing'].keys()))
-    for k in tqdm.tqdm(range(len(keys))):
+    for k in range(len(keys)):
+        
         city = keys[k]
+        print('  '+city)
 
 
 
@@ -192,7 +222,7 @@ def prettyMD(data, is_check_url):
             
             for element in masters:
                 try:
-                    out += prettyMD_master(element, is_check_url)
+                    out += prettyMD_master(element)
                 except KeyError as keyError:
                     print('Key '+str(keyError)+' cannot be found in entry \n', element,'\n\n')
                 except Exception as e:
@@ -217,9 +247,11 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description='Generate Listing')
     parser.add_argument('-c','--checkURL', help='Check url validity', action='store_true')
+    parser.add_argument('-C','--checkURLwithFailure', help='Check url validity and fails if some are unreachable', action='store_true')
     args = parser.parse_args()  
 
-    is_check_url = args.checkURL
+    is_check_url = args.checkURL or args.checkURLwithFailure
+    exit_on_failure = args.checkURLwithFailure
 
     filename_yaml = root_path+'/../'+meta['filename_yaml']
     filename_json_out = root_path+'/../'+meta['filename_json_out']
@@ -229,13 +261,20 @@ if __name__ == "__main__":
 
     data = yaml_read_file(filename_yaml)
 
+   
+    if is_check_url:
+        urls = get_all_urls(data)
+        check_urls(urls, exitOnError=exit_on_failure)
+
     # export json
+    print('[Export JSON]')
     with open(filename_json_out, 'w') as json_fid:
         json.dump(data, json_fid, indent=4)
 
     # export pretty md
+    print('[Export README.md]')
     with open(filename_md_out, 'w') as md_fid:
-        mdTXT = prettyMD(data, is_check_url)
+        mdTXT = prettyMD(data)
         md_fid.write(mdTXT)
     
-    export_html_static(data)
+    # export_html_static(data)
