@@ -1,138 +1,231 @@
 Listing:
+
   Angoulème:
-    - Name: JMIN
-      Title: Master Jeux et Médias Interactifs Numériques
-      url: https://enjmin.cnam.fr/formations/master-jeux-video/
-      url-class: https://enjmin.cnam.fr/formations/master-jeux-video/programme/
-      Keywords: Jeux Vidéos, Game Design, Ergonomie, Conception visuelle, Interface.
-      University: "CNAM, ENJMIN"
-      Description: "Master professionel dans le domaine de la programmation de jeux vidéos. L'un des rare master publique du domaine."
+    other:
+      - Name: JMIN
+        Title: Jeux et Médias Interactifs Numériques
+        url: https://enjmin.cnam.fr/formations/master-jeux-video/
+        url-class: https://enjmin.cnam.fr/formations/master-jeux-video/programme/
+        Keywords: Jeux Vidéos, Game Design, Ergonomie, Conception visuelle, Interface.
+        University: "CNAM, ENJMIN"
+        Description: "Master professionel dans le domaine de la programmation de jeux vidéos. Propose plusieurs parcours intégrant la programmation, mais également la conception visuelle et sonore, le design, l'ergonomie, et la gestion de projets dans les jeux."
+        url-gouv: https://www.trouvermonmaster.gouv.fr/master/conservatoire-national-des-arts-et-metiers/audiovisuel-medias-interactifs-numeriques-jeux-3?q=jeux%20et%20M%C3%A9dias%20Interactifs%20Num%C3%A9riques&position=3&layout=1
+        Diploma-domain: Sciences humaines et sociales
+        Diploma-title: Audiovisuel, médias interactifs numériques, jeux
+        Duration: 2
 
   Dijon:
-    - Name: IIA
-      Title: Image et Intelligence Artificielle
-      url: https://www.u-bourgogne.fr/images/stories/odf/master/ff-image-intelligence-artificielle-m2.pdf
-      City: Dijon
-      Keywords: analyse et synthèse d'images, reconstruction 3D, animation, réalité virtuelle et augmentée, outils de l'intelligence artificielle.
-      University: Université de Bourgogne
+    main:
+      - Name: IIA
+        Title: Image et Intelligence Artificielle
+        url: https://www.u-bourgogne.fr/images/stories/odf/master/ff-image-intelligence-artificielle-m2.pdf
+        City: Dijon
+        Keywords: analyse et synthèse d'images, reconstruction 3D, animation, réalité virtuelle et augmentée, outils de l'intelligence artificielle.
+        University: Université de Bourgogne
+        url-gouv: https://www.trouvermonmaster.gouv.fr/master/universite-de-dijon/informatique-7?q=informatique%20dijon&position=0&layout=1
+        Diploma-domain: Sciences, Technologies, Santé
+        Diploma-title: Informatique
+        Duration: 1
 
   Grenoble:
-    - Name: MoSIG
-      Title: Master of Science in Informatics at Grenoble
-      url: https://mosig.imag.fr/
-      International:
-      University: Université Grenoble Alpes, Grenoble INP
-      Speciality: 
-        HDWI:
-          Title: "Human and Digital World Interactions: Robotics, Augmented and Virtual Reality, Perception"
-          url: https://mosig.imag.fr/HDW/HDW
-          Keywords: computer vision, computer graphics, autonomous robotics, HCI, medical imaging, simulation, machine learning.
-        
+    main:
+      - Name: MoSIG
+        Title: Master of Science in Informatics at Grenoble
+        url: https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/master-XB/master-informatique-IAQK9B8Z/parcours-master-of-science-in-informatics-at-grenoble-mosig-IB9GGIRD.html
+        International:
+        University: Université Grenoble Alpes, Grenoble INP
+        Speciality: 
+          HDWI:
+            Title: "Human and Digital World Interactions: Robotics, Augmented and Virtual Reality, Perception"
+            url: https://mosig.imag.fr/HDW/HDW
+            Keywords: computer vision, computer graphics, autonomous robotics, HCI, medical imaging, simulation, machine learning.
+        url-gouv: https://www.trouvermonmaster.gouv.fr/master/universite-grenoble-alpes-1/informatique-69?q=grenoble%20informatique&position=1&layout=1
+        Diploma-domain: Sciences, Technologies, Santé
+        Diploma-title: Informatique
+        Duration: 2
+
   Limoges:
-    - Name: ISICG
-      Title: Informatique, Synthèse d'Images et Conception Graphique
-      url: https://www.unilim.fr/isicg/Modules_et_competences.html
-      Keywords: Rendu, Modélisation, Simulation, Géométrie, Production visuelle
-      University: University de Limoges, Faculté des Sciences &amp; Techniques
+    main:
+      - Name: ISICG
+        Title: Informatique, Synthèse d'Images et Conception Graphique
+        url: https://www.unilim.fr/isicg/Modules_et_competences.html
+        Keywords: Rendu, Modélisation, Simulation, Géométrie, Production visuelle
+        University: University de Limoges, Faculté des Sciences &amp; Techniques
+        url-gouv: https://www.trouvermonmaster.gouv.fr/master/universite-de-limoges/informatique-17?q=limoges%20images&position=0&layout=1
+        Diploma-domain: Sciences, Technologies, Santé
+        Diploma-title: Informatique
+        Duration: 2
   
   Lyon:
-    - Name: ID3D
-      Title: Master Image, Développement et Technologie 3D
-      url: http://master-info.univ-lyon1.fr/ID3D/
-      url-class: http://master-info.univ-lyon1.fr/ID3D/#2
-      Keywords: Modélisation géométrique, maillages, vision, VR/AR, jeux vidéos, imagerie médicale.
-      University: Université Lyon 1, Ecole Centrale, Université Lyon 2, CPE Lyon.
-      Description: "Master dédié à l'Informatique Graphique et à l'Image avec des composantes avancés en modélisation et traitement de la géométrie. Spécialisation possible en en Mondes Virtuels en seconde année."
-    - Name: Gamagora
-      Title: Ingénierie du jeu vidéo
-      url: https://icom.univ-lyon2.fr/formation/master-2-informatique-gamagora-1
-      Keywords: jeux vidéos, rendu, IA, moteur physique
-      University: Université Lumière Lyon 2
-      Description: "Master (uniquement 2ème année pour le M2) dédié à la programmation techniques de jeux vidéos. L'un des rare master publique du domaine."
+    main:
+      - Name: ID3D
+        Title: Image, Développement et Technologie 3D
+        url: http://master-info.univ-lyon1.fr/ID3D/
+        url-class: http://master-info.univ-lyon1.fr/ID3D/#2
+        Keywords: Modélisation géométrique, maillages, vision, VR/AR, jeux vidéos, imagerie médicale.
+        University: Université Lyon 1, Ecole Centrale, Université Lyon 2, CPE Lyon.
+        Description: "Master dédié à l'Informatique Graphique et à l'Image avec des composantes avancés en modélisation et traitement de la géométrie. Spécialisation possible en en Mondes Virtuels en seconde année."
+        url-gouv: https://www.trouvermonmaster.gouv.fr/master/universite-lyon-i/informatique-51?q=ID3D&position=0&layout=1
+        Diploma-domain: Sciences, Technologies, Santé
+        Diploma-title: Informatique
+        Duration: 2
+    other:
+      - Name: Gamagora
+        Title: Ingénierie du jeu vidéo
+        url: https://icom.univ-lyon2.fr/formation/master-2-informatique-gamagora-1
+        Keywords: jeux vidéos, rendu, IA, moteur physique
+        University: Université Lumière Lyon 2
+        Description: "M2 dédié à la programmation techniques de jeux vidéos ainsi qu'aux approches graphiques de modélisation et animation."
+        url-gouv: https://www.trouvermonmaster.gouv.fr/master/universite-lyon-ii/informatique-20?q=gamagora&position=0&layout=1
+        Diploma-domain: Sciences, Technologies, Santé
+        Diploma-title: Informatique
+        Duration: 1
 
   
   Marseille:
-    - Name: GIG
-      Title: Géométrie et Informatique Graphique
-      url: https://formations.univ-amu.fr/fr/master/5SIN/PRSIN5AF
-      Keywords: Modèles 3D, analyse de formes 3D, synthèse d'images, reconstruction 3D, animation, réalité virtuelle et augmentée.
-      University: Aix-Marseille Université
-
+    main:
+      - Name: GIG
+        Title: Géométrie et Informatique Graphique
+        url: https://formations.univ-amu.fr/fr/master/5SIN/PRSIN5AF
+        Keywords: Modèles 3D, analyse de formes 3D, synthèse d'images, reconstruction 3D, animation, réalité virtuelle et augmentée.
+        University: Aix-Marseille Université
+        url-gouv: https://www.trouvermonmaster.gouv.fr/master/universite-d-aix-marseille/informatique-23?q=G%C3%A9om%C3%A9trie%20et%20Informatique%20Graphique&position=0&layout=1
+        Diploma-domain: Sciences, Technologies, Santé
+        Diploma-title: Informatique
+        Duration: 2
   Paris:
-    - Name: IGD
-      Title: Interaction, Graphics &amp; Design
-      City-detail: Palaiseau
-      url: https://www.ip-paris.fr/en/education/masters/computer-science-program/master-year-2-interaction-graphics-design
-      url-class: https://diva.telecom-paristech.fr/igd/allcourses.html
-      International:
-      Keywords: Computer Graphics, Interactive 3D application, Computer Animation, Geometry Processing, Games, HMI, Interface.
-      University: "IP Paris: Telecom Paris, Ecole Polytechnique, Telecom Sud Paris"
-      Description: "Master en Informatique de l'IP Paris entièrement dédié à l'Informatique Graphique 3D, Interaction et IHM. Très large choix de cours avancés en Graphique."
-    - Name: Ai-ViC
-      Title: Artificial Intelligence and advanced Visual Computing
-      City-detail: Palaiseau
-      url: https://programmes.polytechnique.edu/en/master/all-msct-programs/artificial-intelligence-advanced-visual-computing-master
-      url-class: https://programmes.polytechnique.edu/en/master-all-msct-programs/artificial-intelligence-advanced-visual-computing/course-content
-      International:
-      Keywords: Advanced 3D Graphics, Learning for Vision and 3D Geometry, Deep and Reinforcement Learning, Autonomous agents, Robotics, Interaction and VR/AR.
-      University: "Ecole Polytechnique"
-      Description: "Master of Science and Technology (MsC&amp;T) de l'Ecole Polytechnique mixant Informatique et Mathématique Appliqués pour des applications avancés en Graphique, Vision, et Robotique avec une composante IA et apprentissage. Les MsC&amp;T sont des formations de grade Master, à mi-chemin entre un master recherche et une formation d'ingénieur intégrant des formations transverses, d'éthique, et du sport."
-    - Name: IMA
-      Title: Image, vision par ordinateur, informatique graphique
-      url: https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-ima
-      url-class: http://www-master.ufr-info-p6.jussieu.fr/parcours/ima/ue.html
-      Keywords: Imagerie médicale, Analyse d'image, Vision, Statistique.
-      University: Sorbonne Université, Télécom Paris.
-      Description: "Master principalement orienté Analyse d'Image avec une forte composante d'Imagerie Médicale et quelques cours d'Informatique Graphique"
-    - Name: VAR
-      Title: Virtual &amp; Augmented Reality
-      url: https://www.ip-paris.fr/en/education/masters/electrical-engineering-program/master-year-2-virtual-augmented-reality
-      Description: "Master en Electronique de l'IP Paris/Telecom Sud Paris en Vision, Réalité Virtuelle et Augmentée. Quelques cours fondamentaux en Informatique Graphique."
-      City-detail: Palaiseau
-      Keywords: Réalité Virtuelle, Traitement d'Images, Reconstruction 3D
-      University: "IP Paris, Telecom Sud Paris"
-    - Name: RVSI
-      Title: Réalité Virtuelle et Systèmes Intelligents
-      url: https://www.universite-paris-saclay.fr/en/education/master/electrical-engineering/m2-virtual-reality-and-intelligent-systems
-      Description: "Master en Electronique de l'Université Paris-Sacaly/Telecom Sud Paris (à Evry) en Réalité Virtuelle et Vision."
-      City-detail: Evry
-      Keywords: Vision par ordinateur, réalité augmentée, interaction multi sensorielle, réalité virtuelle
-      University: "Université Paris-Saclay, ENSIIE, Université d'Evry, Télécom SudParis"
-    - Name: MVA
-      Title: Mathématique, Vision, Apprentissage
-      Description: "Master en Mathématique de Paris Saclay/ENS Paris-Saclay. Master a forte composante théorique en Vision et Apprentisage. Propose quelques cours en géométrie 3D et analyse de forme."
-      url: http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/
-      City-detail: Gif sur Yvette
-      Keywords: Vision, Apprentissage, Analyse d'Image, Image Médicale, Géométrie
-      University: "Université Paris Saclay: ENS Paris-Saclay, CentraleSupélec, Mines ParisTech"
+    main:
+      - Name: IGD
+        Title: Interaction, Graphics &amp; Design
+        City-detail: Palaiseau
+        url: https://www.ip-paris.fr/en/education/masters/computer-science-program/master-year-2-interaction-graphics-design
+        url-class: https://diva.telecom-paristech.fr/igd/allcourses.html
+        International:
+        Keywords: Computer Graphics, Interactive 3D application, Computer Animation, Geometry Processing, Games, HMI, Interface.
+        University: "IP Paris: Telecom Paris, Ecole Polytechnique, Telecom Sud Paris"
+        Description: "Master en Informatique de l'IP Paris entièrement dédié à l'Informatique Graphique 3D, Interaction et IHM. Large choix de cours de graphique avancés."
+        url-gouv: https://www.trouvermonmaster.gouv.fr/master/institut-polytechnique-de-paris/informatique-65?q=Graphics&position=1&layout=1
+        Diploma-domain: Sciences, Technologies, Santé
+        Diploma-title: Informatique
+        Duration: 2
+      - Name: Ai-ViC
+        Title: Artificial Intelligence and advanced Visual Computing
+        City-detail: Palaiseau
+        url: https://programmes.polytechnique.edu/en/master/all-msct-programs/artificial-intelligence-advanced-visual-computing-master
+        url-class: https://programmes.polytechnique.edu/en/master-all-msct-programs/artificial-intelligence-advanced-visual-computing/course-content
+        International:
+        Keywords: Advanced 3D Graphics, Learning for Vision and 3D Geometry, Deep and Reinforcement Learning, Autonomous agents, Robotics, Interaction and VR/AR.
+        University: "Ecole Polytechnique"
+        Description: "Master of Science and Technology (MsC&amp;T) de l'Ecole Polytechnique mixant Informatique et Mathématique Appliqués pour des applications avancés en Graphique, Vision, et Robotique avec une composante IA et apprentissage. Les MsC&amp;T sont des formations de grade Master, à mi-chemin entre un master recherche et une formation d'ingénieur intégrant des formations transverses, d'éthique, et du sport."
+    other:
+      - Name: IMA
+        Title: Image, vision par ordinateur, informatique graphique
+        url: https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-ima
+        url-class: http://www-master.ufr-info-p6.jussieu.fr/parcours/ima/ue.html
+        Keywords: Imagerie médicale, Analyse d'image, Vision, Statistique.
+        University: Sorbonne Université, Télécom Paris.
+        Description: "Master principalement orienté Analyse d'Image avec une forte composante d'Imagerie Médicale et quelques cours d'Informatique Graphique"
+        url-gouv: https://www.trouvermonmaster.gouv.fr/master/universite-sorbonne-universite/informatique-27?q=IMA&position=2&layout=1
+        Diploma-domain: Sciences, Technologies, Santé
+        Diploma-title: Informatique
+        Duration: 2
+
+      - Name: VAR
+        Title: Virtual &amp; Augmented Reality
+        url: https://www.ip-paris.fr/en/education/masters/electrical-engineering-program/master-year-2-virtual-augmented-reality
+        Description: "Master en Electronique de l'IP Paris/Telecom Sud Paris en Vision, Réalité Virtuelle et Augmentée. Quelques cours fondamentaux en Informatique Graphique."
+        City-detail: Palaiseau
+        Keywords: Réalité Virtuelle, Traitement d'Images, Reconstruction 3D
+        University: "IP Paris, Telecom Sud Paris"
+        url-gouv: https://www.trouvermonmaster.gouv.fr/master/institut-polytechnique-de-paris/electronique-energie-electrique-automatique-25?q=Virtual%20Augmented%20Reality&position=0&layout=1
+        Diploma-domain: Sciences, Technologies, Santé
+        Diploma-title: Electronique, énergie électrique, automatique
+        Duration: 1
+
+      - Name: RVSI
+        Title: Réalité Virtuelle et Systèmes Intelligents
+        url: https://www.universite-paris-saclay.fr/en/education/master/electrical-engineering/m2-virtual-reality-and-intelligent-systems
+        Description: "Master en Electronique de l'Université Paris-Sacaly/Telecom Sud Paris (à Evry) en Réalité Virtuelle et Vision."
+        City-detail: Evry
+        Keywords: Vision par ordinateur, réalité augmentée, interaction multi sensorielle, réalité virtuelle
+        University: "Université Paris-Saclay, ENSIIE, Université d'Evry, Télécom SudParis"
+        url-gouv: https://www.trouvermonmaster.gouv.fr/master/universite-paris-saclay-1/electronique-energie-electrique-automatique-12?q=R%C3%A9alit%C3%A9%20Virtuelle%20et%20Syst%C3%A8mes%20Intelligents&position=0&layout=1
+        Diploma-domain: Sciences, Technologies, Santé
+        Diploma-title: Electronique, énergie électrique, automatique
+        Duration: 1
+
+      - Name: ATI
+        Title: Arts et Technologies de l'Image virtuelle
+        url: https://www.univ-paris8.fr/-Master-Arts-et-Technologies-de-l-Image-virtuelle-630-
+        url-class: https://www.univ-paris8.fr/IMG/pdf/org_ens_m_ati.pdf
+        Keywords: Infographie, Temps réel, Recherche-création, Art numérique
+        University: Université Paris 8
+        Description: "Master à l'interface entre art et informatique. Composante principale orientée infographie et création artistique technique, soutenu par des cours de programmation pour du graphique temps réel."
+        url-gouv: https://www.trouvermonmaster.gouv.fr/master/universite-paris-viii/creation-numerique-1?q=Arts%20et%20Technologies%20de%20l%27Image%20virtuelle&layout=1&position=0
+        Diploma-domain: Arts, Lettres, Langues
+        Diploma-title: Création numérique
+        Duration: 2
+
+      - Name: MVA
+        Title: Mathématique, Vision, Apprentissage
+        Description: "Master en Mathématique de Paris Saclay/ENS Paris-Saclay. Master a forte composante théorique en Vision et Apprentisage. Propose quelques cours en géométrie 3D et analyse de forme."
+        url: http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/
+        City-detail: Gif sur Yvette
+        Keywords: Vision, Apprentissage, Analyse d'Image, Image Médicale, Géométrie
+        University: "Université Paris Saclay: ENS Paris-Saclay, CentraleSupélec, Mines ParisTech"
+        url-gouv: https://www.trouvermonmaster.gouv.fr/master/universite-paris-viii/creation-numerique-1?q=Arts%20et%20Technologies%20de%20l%27Image%20virtuelle&layout=1&position=0
+        Diploma-domain: Sciences et technologies
+        Diploma-title: Mathématiques et applications
+        Duration: 1
 
 
 
   Rennes:
-    - Name: SIF
-      Title: Research Master's in Computer Science
-      url: http://master.irisa.fr/index.php
-      International:
-      Speciality: 
-        Image and Interactions:
-          Title: "Human and Digital World Interactions: Robotics, Augmented and Virtual Reality, Perception"
-          url: http://master.irisa.fr/courses/index-rennes.php
-          Keywords: Computer Graphics, Virtual Reality, Computer Interaction, Vision, Graph, Animation.
-      University: Université de Rennes 1, Université de Bretagne Sud, ENS Rennes, INSA, CentraleSupélec.
+    main:
+      - Name: SIF
+        Title: Research Master's in Computer Science
+        url: http://master.irisa.fr/index.php
+        International:
+        Speciality: 
+          Image and Interactions:
+            Title: "Human and Digital World Interactions: Robotics, Augmented and Virtual Reality, Perception"
+            url: http://master.irisa.fr/courses/index-rennes.php
+            Keywords: Computer Graphics, Virtual Reality, Computer Interaction, Vision, Graph, Animation.
+        University: Université de Rennes 1, Université de Bretagne Sud, ENS Rennes, INSA, CentraleSupélec.
+        url-gouv: https://www.trouvermonmaster.gouv.fr/master/universite-rennes-i/informatique-19?q=Rennes%20informatique&position=1&layout=1
+        Diploma-domain: Sciences, Technologies, Santé
+        Diploma-title: Informatique
+        Duration: 2
+        
 
   Strasbourg:
-    - Name: ISI
-      Title: Informatique et Sciences de l'Image
-      url: http://master-informatique.unistra.fr/#isi
-      Keywords: Modélisation géométrique, rendu, traitement d'images, CAO, multimédia
-      University: "Université de Strasbourg"
-  
+    main:
+      - Name: I3d
+        Title: Image et 3D
+        url: http://master-informatique.unistra.fr/doku.php?id=formation:i3d
+        url-class: https://mathinfo.unistra.fr/formations/master/informatique/image-et-3d-i3d/#data-rof-tab-cours
+        Keywords: Modélisation géométrique, rendu, traitement d'images, CAO, multimédia
+        University: "Université de Strasbourg"
+        url-gouv: https://www.trouvermonmaster.gouv.fr/master/universite-de-strasbourg/informatique-48?q=Informatique%20et%20Sciences%20de%20l%27Image&position=2&layout=1
+        Diploma-domain: Sciences, Technologies, Santé
+        Diploma-title: Informatique
+        Duration: 2
+
   Toulouse:
-    - Name: INF-IGAI
-      Title: Master Informatique Graphique et Analyse d'Images
-      url: https://departement-informatique.univ-tlse3.fr/master-igai/
-      Keywords: Modélisatoin géométrique, rendu, animation, game design, vision, audio-visuel numérique, traitement du signal
-      University: Université Paul Sabatier
+    main:
+      - Name: IAFA
+        Title: "Intelligence Artificielle : Fondements et Applications"
+        url: https://departement-informatique.univ-tlse3.fr/master/master-informatique-2021-2026/
+        Speciality: 
+          INF-IGAI:
+            Title: "Informatique Graphique et Analyse d'Images"
+            url: https://departement-informatique.univ-tlse3.fr/master-igai/
+            Keywords: Modélisation géométrique, rendu, animation, game design, vision, audio-visuel numérique, traitement du signal
+        University: Université Paul Sabatier
+        url-gouv: https://www.trouvermonmaster.gouv.fr/master/universite-toulouse-iii/informatique-24?q=toulouse%20informatique&position=0&layout=1
+        Diploma-domain: Sciences, Technologies, Santé
+        Diploma-title: Informatique
+        Duration: 2
 
 
 

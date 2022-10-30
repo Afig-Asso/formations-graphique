@@ -1,172 +1,276 @@
 {
     "Listing": {
-        "Angoul\u00e8me": [
-            {
-                "Name": "JMIN",
-                "Title": "Master Jeux et M\u00e9dias Interactifs Num\u00e9riques",
-                "url": "https://enjmin.cnam.fr/formations/master-jeux-video/",
-                "url-class": "https://enjmin.cnam.fr/formations/master-jeux-video/programme/",
-                "Keywords": "Jeux Vid\u00e9os, Game Design, Ergonomie, Conception visuelle, Interface.",
-                "University": "CNAM, ENJMIN",
-                "Description": "Master professionel dans le domaine de la programmation de jeux vid\u00e9os. L'un des rare master publique du domaine."
-            }
-        ],
-        "Dijon": [
-            {
-                "Name": "IIA",
-                "Title": "Image et Intelligence Artificielle",
-                "url": "https://www.u-bourgogne.fr/images/stories/odf/master/ff-image-intelligence-artificielle-m2.pdf",
-                "City": "Dijon",
-                "Keywords": "analyse et synth\u00e8se d'images, reconstruction 3D, animation, r\u00e9alit\u00e9 virtuelle et augment\u00e9e, outils de l'intelligence artificielle.",
-                "University": "Universit\u00e9 de Bourgogne"
-            }
-        ],
-        "Grenoble": [
-            {
-                "Name": "MoSIG",
-                "Title": "Master of Science in Informatics at Grenoble",
-                "url": "https://mosig.imag.fr/",
-                "International": null,
-                "University": "Universit\u00e9 Grenoble Alpes, Grenoble INP",
-                "Speciality": {
-                    "HDWI": {
-                        "Title": "Human and Digital World Interactions: Robotics, Augmented and Virtual Reality, Perception",
-                        "url": "https://mosig.imag.fr/HDW/HDW",
-                        "Keywords": "computer vision, computer graphics, autonomous robotics, HCI, medical imaging, simulation, machine learning."
-                    }
+        "Angoul\u00e8me": {
+            "other": [
+                {
+                    "Name": "JMIN",
+                    "Title": "Jeux et M\u00e9dias Interactifs Num\u00e9riques",
+                    "url": "https://enjmin.cnam.fr/formations/master-jeux-video/",
+                    "url-class": "https://enjmin.cnam.fr/formations/master-jeux-video/programme/",
+                    "Keywords": "Jeux Vid\u00e9os, Game Design, Ergonomie, Conception visuelle, Interface.",
+                    "University": "CNAM, ENJMIN",
+                    "Description": "Master professionel dans le domaine de la programmation de jeux vid\u00e9os. Propose plusieurs parcours int\u00e9grant la programmation, mais \u00e9galement la conception visuelle et sonore, le design, l'ergonomie, et la gestion de projets dans les jeux.",
+                    "url-gouv": "https://www.trouvermonmaster.gouv.fr/master/conservatoire-national-des-arts-et-metiers/audiovisuel-medias-interactifs-numeriques-jeux-3?q=jeux%20et%20M%C3%A9dias%20Interactifs%20Num%C3%A9riques&position=3&layout=1",
+                    "Diploma-domain": "Sciences humaines et sociales",
+                    "Diploma-title": "Audiovisuel, m\u00e9dias interactifs num\u00e9riques, jeux",
+                    "Duration": 2
                 }
-            }
-        ],
-        "Limoges": [
-            {
-                "Name": "ISICG",
-                "Title": "Informatique, Synth\u00e8se d'Images et Conception Graphique",
-                "url": "https://www.unilim.fr/isicg/Modules_et_competences.html",
-                "Keywords": "Rendu, Mod\u00e9lisation, Simulation, G\u00e9om\u00e9trie, Production visuelle",
-                "University": "University de Limoges, Facult\u00e9 des Sciences &amp; Techniques"
-            }
-        ],
-        "Lyon": [
-            {
-                "Name": "ID3D",
-                "Title": "Master Image, D\u00e9veloppement et Technologie 3D",
-                "url": "http://master-info.univ-lyon1.fr/ID3D/",
-                "url-class": "http://master-info.univ-lyon1.fr/ID3D/#2",
-                "Keywords": "Mod\u00e9lisation g\u00e9om\u00e9trique, maillages, vision, VR/AR, jeux vid\u00e9os, imagerie m\u00e9dicale.",
-                "University": "Universit\u00e9 Lyon 1, Ecole Centrale, Universit\u00e9 Lyon 2, CPE Lyon.",
-                "Description": "Master d\u00e9di\u00e9 \u00e0 l'Informatique Graphique et \u00e0 l'Image avec des composantes avanc\u00e9s en mod\u00e9lisation et traitement de la g\u00e9om\u00e9trie. Sp\u00e9cialisation possible en en Mondes Virtuels en seconde ann\u00e9e."
-            },
-            {
-                "Name": "Gamagora",
-                "Title": "Ing\u00e9nierie du jeu vid\u00e9o",
-                "url": "https://icom.univ-lyon2.fr/formation/master-2-informatique-gamagora-1",
-                "Keywords": "jeux vid\u00e9os, rendu, IA, moteur physique",
-                "University": "Universit\u00e9 Lumi\u00e8re Lyon 2",
-                "Description": "Master (uniquement 2\u00e8me ann\u00e9e pour le M2) d\u00e9di\u00e9 \u00e0 la programmation techniques de jeux vid\u00e9os. L'un des rare master publique du domaine."
-            }
-        ],
-        "Marseille": [
-            {
-                "Name": "GIG",
-                "Title": "G\u00e9om\u00e9trie et Informatique Graphique",
-                "url": "https://formations.univ-amu.fr/fr/master/5SIN/PRSIN5AF",
-                "Keywords": "Mod\u00e8les 3D, analyse de formes 3D, synth\u00e8se d'images, reconstruction 3D, animation, r\u00e9alit\u00e9 virtuelle et augment\u00e9e.",
-                "University": "Aix-Marseille Universit\u00e9"
-            }
-        ],
-        "Paris": [
-            {
-                "Name": "IGD",
-                "Title": "Interaction, Graphics &amp; Design",
-                "City-detail": "Palaiseau",
-                "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/master-year-2-interaction-graphics-design",
-                "url-class": "https://diva.telecom-paristech.fr/igd/allcourses.html",
-                "International": null,
-                "Keywords": "Computer Graphics, Interactive 3D application, Computer Animation, Geometry Processing, Games, HMI, Interface.",
-                "University": "IP Paris: Telecom Paris, Ecole Polytechnique, Telecom Sud Paris",
-                "Description": "Master en Informatique de l'IP Paris enti\u00e8rement d\u00e9di\u00e9 \u00e0 l'Informatique Graphique 3D, Interaction et IHM. Tr\u00e8s large choix de cours avanc\u00e9s en Graphique."
-            },
-            {
-                "Name": "Ai-ViC",
-                "Title": "Artificial Intelligence and advanced Visual Computing",
-                "City-detail": "Palaiseau",
-                "url": "https://programmes.polytechnique.edu/en/master/all-msct-programs/artificial-intelligence-advanced-visual-computing-master",
-                "url-class": "https://programmes.polytechnique.edu/en/master-all-msct-programs/artificial-intelligence-advanced-visual-computing/course-content",
-                "International": null,
-                "Keywords": "Advanced 3D Graphics, Learning for Vision and 3D Geometry, Deep and Reinforcement Learning, Autonomous agents, Robotics, Interaction and VR/AR.",
-                "University": "Ecole Polytechnique",
-                "Description": "Master of Science and Technology (MsC&amp;T) de l'Ecole Polytechnique mixant Informatique et Math\u00e9matique Appliqu\u00e9s pour des applications avanc\u00e9s en Graphique, Vision, et Robotique avec une composante IA et apprentissage. Les MsC&amp;T sont des formations de grade Master, \u00e0 mi-chemin entre un master recherche et une formation d'ing\u00e9nieur int\u00e9grant des formations transverses, d'\u00e9thique, et du sport."
-            },
-            {
-                "Name": "IMA",
-                "Title": "Image, vision par ordinateur, informatique graphique",
-                "url": "https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-ima",
-                "url-class": "http://www-master.ufr-info-p6.jussieu.fr/parcours/ima/ue.html",
-                "Keywords": "Imagerie m\u00e9dicale, Analyse d'image, Vision, Statistique.",
-                "University": "Sorbonne Universit\u00e9, T\u00e9l\u00e9com Paris.",
-                "Description": "Master principalement orient\u00e9 Analyse d'Image avec une forte composante d'Imagerie M\u00e9dicale et quelques cours d'Informatique Graphique"
-            },
-            {
-                "Name": "VAR",
-                "Title": "Virtual &amp; Augmented Reality",
-                "url": "https://www.ip-paris.fr/en/education/masters/electrical-engineering-program/master-year-2-virtual-augmented-reality",
-                "Description": "Master en Electronique de l'IP Paris/Telecom Sud Paris en Vision, R\u00e9alit\u00e9 Virtuelle et Augment\u00e9e. Quelques cours fondamentaux en Informatique Graphique.",
-                "City-detail": "Palaiseau",
-                "Keywords": "R\u00e9alit\u00e9 Virtuelle, Traitement d'Images, Reconstruction 3D",
-                "University": "IP Paris, Telecom Sud Paris"
-            },
-            {
-                "Name": "RVSI",
-                "Title": "R\u00e9alit\u00e9 Virtuelle et Syst\u00e8mes Intelligents",
-                "url": "https://www.universite-paris-saclay.fr/en/education/master/electrical-engineering/m2-virtual-reality-and-intelligent-systems",
-                "Description": "Master en Electronique de l'Universit\u00e9 Paris-Sacaly/Telecom Sud Paris (\u00e0 Evry) en R\u00e9alit\u00e9 Virtuelle et Vision.",
-                "City-detail": "Evry",
-                "Keywords": "Vision par ordinateur, r\u00e9alit\u00e9 augment\u00e9e, interaction multi sensorielle, r\u00e9alit\u00e9 virtuelle",
-                "University": "Universit\u00e9 Paris-Saclay, ENSIIE, Universit\u00e9 d'Evry, T\u00e9l\u00e9com SudParis"
-            },
-            {
-                "Name": "MVA",
-                "Title": "Math\u00e9matique, Vision, Apprentissage",
-                "Description": "Master en Math\u00e9matique de Paris Saclay/ENS Paris-Saclay. Master a forte composante th\u00e9orique en Vision et Apprentisage. Propose quelques cours en g\u00e9om\u00e9trie 3D et analyse de forme.",
-                "url": "http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/",
-                "City-detail": "Gif sur Yvette",
-                "Keywords": "Vision, Apprentissage, Analyse d'Image, Image M\u00e9dicale, G\u00e9om\u00e9trie",
-                "University": "Universit\u00e9 Paris Saclay: ENS Paris-Saclay, CentraleSup\u00e9lec, Mines ParisTech"
-            }
-        ],
-        "Rennes": [
-            {
-                "Name": "SIF",
-                "Title": "Research Master's in Computer Science",
-                "url": "http://master.irisa.fr/index.php",
-                "International": null,
-                "Speciality": {
-                    "Image and Interactions": {
-                        "Title": "Human and Digital World Interactions: Robotics, Augmented and Virtual Reality, Perception",
-                        "url": "http://master.irisa.fr/courses/index-rennes.php",
-                        "Keywords": "Computer Graphics, Virtual Reality, Computer Interaction, Vision, Graph, Animation."
-                    }
+            ]
+        },
+        "Dijon": {
+            "main": [
+                {
+                    "Name": "IIA",
+                    "Title": "Image et Intelligence Artificielle",
+                    "url": "https://www.u-bourgogne.fr/images/stories/odf/master/ff-image-intelligence-artificielle-m2.pdf",
+                    "City": "Dijon",
+                    "Keywords": "analyse et synth\u00e8se d'images, reconstruction 3D, animation, r\u00e9alit\u00e9 virtuelle et augment\u00e9e, outils de l'intelligence artificielle.",
+                    "University": "Universit\u00e9 de Bourgogne",
+                    "url-gouv": "https://www.trouvermonmaster.gouv.fr/master/universite-de-dijon/informatique-7?q=informatique%20dijon&position=0&layout=1",
+                    "Diploma-domain": "Sciences, Technologies, Sant\u00e9",
+                    "Diploma-title": "Informatique",
+                    "Duration": 1
+                }
+            ]
+        },
+        "Grenoble": {
+            "main": [
+                {
+                    "Name": "MoSIG",
+                    "Title": "Master of Science in Informatics at Grenoble",
+                    "url": "https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/master-XB/master-informatique-IAQK9B8Z/parcours-master-of-science-in-informatics-at-grenoble-mosig-IB9GGIRD.html",
+                    "International": null,
+                    "University": "Universit\u00e9 Grenoble Alpes, Grenoble INP",
+                    "Speciality": {
+                        "HDWI": {
+                            "Title": "Human and Digital World Interactions: Robotics, Augmented and Virtual Reality, Perception",
+                            "url": "https://mosig.imag.fr/HDW/HDW",
+                            "Keywords": "computer vision, computer graphics, autonomous robotics, HCI, medical imaging, simulation, machine learning."
+                        }
+                    },
+                    "url-gouv": "https://www.trouvermonmaster.gouv.fr/master/universite-grenoble-alpes-1/informatique-69?q=grenoble%20informatique&position=1&layout=1",
+                    "Diploma-domain": "Sciences, Technologies, Sant\u00e9",
+                    "Diploma-title": "Informatique",
+                    "Duration": 2
+                }
+            ]
+        },
+        "Limoges": {
+            "main": [
+                {
+                    "Name": "ISICG",
+                    "Title": "Informatique, Synth\u00e8se d'Images et Conception Graphique",
+                    "url": "https://www.unilim.fr/isicg/Modules_et_competences.html",
+                    "Keywords": "Rendu, Mod\u00e9lisation, Simulation, G\u00e9om\u00e9trie, Production visuelle",
+                    "University": "University de Limoges, Facult\u00e9 des Sciences &amp; Techniques",
+                    "url-gouv": "https://www.trouvermonmaster.gouv.fr/master/universite-de-limoges/informatique-17?q=limoges%20images&position=0&layout=1",
+                    "Diploma-domain": "Sciences, Technologies, Sant\u00e9",
+                    "Diploma-title": "Informatique",
+                    "Duration": 2
+                }
+            ]
+        },
+        "Lyon": {
+            "main": [
+                {
+                    "Name": "ID3D",
+                    "Title": "Image, D\u00e9veloppement et Technologie 3D",
+                    "url": "http://master-info.univ-lyon1.fr/ID3D/",
+                    "url-class": "http://master-info.univ-lyon1.fr/ID3D/#2",
+                    "Keywords": "Mod\u00e9lisation g\u00e9om\u00e9trique, maillages, vision, VR/AR, jeux vid\u00e9os, imagerie m\u00e9dicale.",
+                    "University": "Universit\u00e9 Lyon 1, Ecole Centrale, Universit\u00e9 Lyon 2, CPE Lyon.",
+                    "Description": "Master d\u00e9di\u00e9 \u00e0 l'Informatique Graphique et \u00e0 l'Image avec des composantes avanc\u00e9s en mod\u00e9lisation et traitement de la g\u00e9om\u00e9trie. Sp\u00e9cialisation possible en en Mondes Virtuels en seconde ann\u00e9e.",
+                    "url-gouv": "https://www.trouvermonmaster.gouv.fr/master/universite-lyon-i/informatique-51?q=ID3D&position=0&layout=1",
+                    "Diploma-domain": "Sciences, Technologies, Sant\u00e9",
+                    "Diploma-title": "Informatique",
+                    "Duration": 2
+                }
+            ],
+            "other": [
+                {
+                    "Name": "Gamagora",
+                    "Title": "Ing\u00e9nierie du jeu vid\u00e9o",
+                    "url": "https://icom.univ-lyon2.fr/formation/master-2-informatique-gamagora-1",
+                    "Keywords": "jeux vid\u00e9os, rendu, IA, moteur physique",
+                    "University": "Universit\u00e9 Lumi\u00e8re Lyon 2",
+                    "Description": "M2 d\u00e9di\u00e9 \u00e0 la programmation techniques de jeux vid\u00e9os ainsi qu'aux approches graphiques de mod\u00e9lisation et animation.",
+                    "url-gouv": "https://www.trouvermonmaster.gouv.fr/master/universite-lyon-ii/informatique-20?q=gamagora&position=0&layout=1",
+                    "Diploma-domain": "Sciences, Technologies, Sant\u00e9",
+                    "Diploma-title": "Informatique",
+                    "Duration": 1
+                }
+            ]
+        },
+        "Marseille": {
+            "main": [
+                {
+                    "Name": "GIG",
+                    "Title": "G\u00e9om\u00e9trie et Informatique Graphique",
+                    "url": "https://formations.univ-amu.fr/fr/master/5SIN/PRSIN5AF",
+                    "Keywords": "Mod\u00e8les 3D, analyse de formes 3D, synth\u00e8se d'images, reconstruction 3D, animation, r\u00e9alit\u00e9 virtuelle et augment\u00e9e.",
+                    "University": "Aix-Marseille Universit\u00e9",
+                    "url-gouv": "https://www.trouvermonmaster.gouv.fr/master/universite-d-aix-marseille/informatique-23?q=G%C3%A9om%C3%A9trie%20et%20Informatique%20Graphique&position=0&layout=1",
+                    "Diploma-domain": "Sciences, Technologies, Sant\u00e9",
+                    "Diploma-title": "Informatique",
+                    "Duration": 2
+                }
+            ]
+        },
+        "Paris": {
+            "main": [
+                {
+                    "Name": "IGD",
+                    "Title": "Interaction, Graphics &amp; Design",
+                    "City-detail": "Palaiseau",
+                    "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/master-year-2-interaction-graphics-design",
+                    "url-class": "https://diva.telecom-paristech.fr/igd/allcourses.html",
+                    "International": null,
+                    "Keywords": "Computer Graphics, Interactive 3D application, Computer Animation, Geometry Processing, Games, HMI, Interface.",
+                    "University": "IP Paris: Telecom Paris, Ecole Polytechnique, Telecom Sud Paris",
+                    "Description": "Master en Informatique de l'IP Paris enti\u00e8rement d\u00e9di\u00e9 \u00e0 l'Informatique Graphique 3D, Interaction et IHM. Large choix de cours de graphique avanc\u00e9s.",
+                    "url-gouv": "https://www.trouvermonmaster.gouv.fr/master/institut-polytechnique-de-paris/informatique-65?q=Graphics&position=1&layout=1",
+                    "Diploma-domain": "Sciences, Technologies, Sant\u00e9",
+                    "Diploma-title": "Informatique",
+                    "Duration": 2
                 },
-                "University": "Universit\u00e9 de Rennes 1, Universit\u00e9 de Bretagne Sud, ENS Rennes, INSA, CentraleSup\u00e9lec."
-            }
-        ],
-        "Strasbourg": [
-            {
-                "Name": "ISI",
-                "Title": "Informatique et Sciences de l'Image",
-                "url": "http://master-informatique.unistra.fr/#isi",
-                "Keywords": "Mod\u00e9lisation g\u00e9om\u00e9trique, rendu, traitement d'images, CAO, multim\u00e9dia",
-                "University": "Universit\u00e9 de Strasbourg"
-            }
-        ],
-        "Toulouse": [
-            {
-                "Name": "INF-IGAI",
-                "Title": "Master Informatique Graphique et Analyse d'Images",
-                "url": "https://departement-informatique.univ-tlse3.fr/master-igai/",
-                "Keywords": "Mod\u00e9lisatoin g\u00e9om\u00e9trique, rendu, animation, game design, vision, audio-visuel num\u00e9rique, traitement du signal",
-                "University": "Universit\u00e9 Paul Sabatier"
-            }
-        ]
+                {
+                    "Name": "Ai-ViC",
+                    "Title": "Artificial Intelligence and advanced Visual Computing",
+                    "City-detail": "Palaiseau",
+                    "url": "https://programmes.polytechnique.edu/en/master/all-msct-programs/artificial-intelligence-advanced-visual-computing-master",
+                    "url-class": "https://programmes.polytechnique.edu/en/master-all-msct-programs/artificial-intelligence-advanced-visual-computing/course-content",
+                    "International": null,
+                    "Keywords": "Advanced 3D Graphics, Learning for Vision and 3D Geometry, Deep and Reinforcement Learning, Autonomous agents, Robotics, Interaction and VR/AR.",
+                    "University": "Ecole Polytechnique",
+                    "Description": "Master of Science and Technology (MsC&amp;T) de l'Ecole Polytechnique mixant Informatique et Math\u00e9matique Appliqu\u00e9s pour des applications avanc\u00e9s en Graphique, Vision, et Robotique avec une composante IA et apprentissage. Les MsC&amp;T sont des formations de grade Master, \u00e0 mi-chemin entre un master recherche et une formation d'ing\u00e9nieur int\u00e9grant des formations transverses, d'\u00e9thique, et du sport."
+                }
+            ],
+            "other": [
+                {
+                    "Name": "IMA",
+                    "Title": "Image, vision par ordinateur, informatique graphique",
+                    "url": "https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-ima",
+                    "url-class": "http://www-master.ufr-info-p6.jussieu.fr/parcours/ima/ue.html",
+                    "Keywords": "Imagerie m\u00e9dicale, Analyse d'image, Vision, Statistique.",
+                    "University": "Sorbonne Universit\u00e9, T\u00e9l\u00e9com Paris.",
+                    "Description": "Master principalement orient\u00e9 Analyse d'Image avec une forte composante d'Imagerie M\u00e9dicale et quelques cours d'Informatique Graphique",
+                    "url-gouv": "https://www.trouvermonmaster.gouv.fr/master/universite-sorbonne-universite/informatique-27?q=IMA&position=2&layout=1",
+                    "Diploma-domain": "Sciences, Technologies, Sant\u00e9",
+                    "Diploma-title": "Informatique",
+                    "Duration": 2
+                },
+                {
+                    "Name": "VAR",
+                    "Title": "Virtual &amp; Augmented Reality",
+                    "url": "https://www.ip-paris.fr/en/education/masters/electrical-engineering-program/master-year-2-virtual-augmented-reality",
+                    "Description": "Master en Electronique de l'IP Paris/Telecom Sud Paris en Vision, R\u00e9alit\u00e9 Virtuelle et Augment\u00e9e. Quelques cours fondamentaux en Informatique Graphique.",
+                    "City-detail": "Palaiseau",
+                    "Keywords": "R\u00e9alit\u00e9 Virtuelle, Traitement d'Images, Reconstruction 3D",
+                    "University": "IP Paris, Telecom Sud Paris",
+                    "url-gouv": "https://www.trouvermonmaster.gouv.fr/master/institut-polytechnique-de-paris/electronique-energie-electrique-automatique-25?q=Virtual%20Augmented%20Reality&position=0&layout=1",
+                    "Diploma-domain": "Sciences, Technologies, Sant\u00e9",
+                    "Diploma-title": "Electronique, \u00e9nergie \u00e9lectrique, automatique",
+                    "Duration": 1
+                },
+                {
+                    "Name": "RVSI",
+                    "Title": "R\u00e9alit\u00e9 Virtuelle et Syst\u00e8mes Intelligents",
+                    "url": "https://www.universite-paris-saclay.fr/en/education/master/electrical-engineering/m2-virtual-reality-and-intelligent-systems",
+                    "Description": "Master en Electronique de l'Universit\u00e9 Paris-Sacaly/Telecom Sud Paris (\u00e0 Evry) en R\u00e9alit\u00e9 Virtuelle et Vision.",
+                    "City-detail": "Evry",
+                    "Keywords": "Vision par ordinateur, r\u00e9alit\u00e9 augment\u00e9e, interaction multi sensorielle, r\u00e9alit\u00e9 virtuelle",
+                    "University": "Universit\u00e9 Paris-Saclay, ENSIIE, Universit\u00e9 d'Evry, T\u00e9l\u00e9com SudParis",
+                    "url-gouv": "https://www.trouvermonmaster.gouv.fr/master/universite-paris-saclay-1/electronique-energie-electrique-automatique-12?q=R%C3%A9alit%C3%A9%20Virtuelle%20et%20Syst%C3%A8mes%20Intelligents&position=0&layout=1",
+                    "Diploma-domain": "Sciences, Technologies, Sant\u00e9",
+                    "Diploma-title": "Electronique, \u00e9nergie \u00e9lectrique, automatique",
+                    "Duration": 1
+                },
+                {
+                    "Name": "ATI",
+                    "Title": "Arts et Technologies de l'Image virtuelle",
+                    "url": "https://www.univ-paris8.fr/-Master-Arts-et-Technologies-de-l-Image-virtuelle-630-",
+                    "url-class": "https://www.univ-paris8.fr/IMG/pdf/org_ens_m_ati.pdf",
+                    "Keywords": "Infographie, Temps r\u00e9el, Recherche-cr\u00e9ation, Art num\u00e9rique",
+                    "University": "Universit\u00e9 Paris 8",
+                    "Description": "Master \u00e0 l'interface entre art et informatique. Composante principale orient\u00e9e infographie et cr\u00e9ation artistique technique, soutenu par des cours de programmation pour du graphique temps r\u00e9el.",
+                    "url-gouv": "https://www.trouvermonmaster.gouv.fr/master/universite-paris-viii/creation-numerique-1?q=Arts%20et%20Technologies%20de%20l%27Image%20virtuelle&layout=1&position=0",
+                    "Diploma-domain": "Arts, Lettres, Langues",
+                    "Diploma-title": "Cr\u00e9ation num\u00e9rique",
+                    "Duration": 2
+                },
+                {
+                    "Name": "MVA",
+                    "Title": "Math\u00e9matique, Vision, Apprentissage",
+                    "Description": "Master en Math\u00e9matique de Paris Saclay/ENS Paris-Saclay. Master a forte composante th\u00e9orique en Vision et Apprentisage. Propose quelques cours en g\u00e9om\u00e9trie 3D et analyse de forme.",
+                    "url": "http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/",
+                    "City-detail": "Gif sur Yvette",
+                    "Keywords": "Vision, Apprentissage, Analyse d'Image, Image M\u00e9dicale, G\u00e9om\u00e9trie",
+                    "University": "Universit\u00e9 Paris Saclay: ENS Paris-Saclay, CentraleSup\u00e9lec, Mines ParisTech",
+                    "url-gouv": "https://www.trouvermonmaster.gouv.fr/master/universite-paris-viii/creation-numerique-1?q=Arts%20et%20Technologies%20de%20l%27Image%20virtuelle&layout=1&position=0",
+                    "Diploma-domain": "Sciences et technologies",
+                    "Diploma-title": "Math\u00e9matiques et applications",
+                    "Duration": 1
+                }
+            ]
+        },
+        "Rennes": {
+            "main": [
+                {
+                    "Name": "SIF",
+                    "Title": "Research Master's in Computer Science",
+                    "url": "http://master.irisa.fr/index.php",
+                    "International": null,
+                    "Speciality": {
+                        "Image and Interactions": {
+                            "Title": "Human and Digital World Interactions: Robotics, Augmented and Virtual Reality, Perception",
+                            "url": "http://master.irisa.fr/courses/index-rennes.php",
+                            "Keywords": "Computer Graphics, Virtual Reality, Computer Interaction, Vision, Graph, Animation."
+                        }
+                    },
+                    "University": "Universit\u00e9 de Rennes 1, Universit\u00e9 de Bretagne Sud, ENS Rennes, INSA, CentraleSup\u00e9lec.",
+                    "url-gouv": "https://www.trouvermonmaster.gouv.fr/master/universite-rennes-i/informatique-19?q=Rennes%20informatique&position=1&layout=1",
+                    "Diploma-domain": "Sciences, Technologies, Sant\u00e9",
+                    "Diploma-title": "Informatique",
+                    "Duration": 2
+                }
+            ]
+        },
+        "Strasbourg": {
+            "main": [
+                {
+                    "Name": "I3d",
+                    "Title": "Image et 3D",
+                    "url": "http://master-informatique.unistra.fr/doku.php?id=formation:i3d",
+                    "url-class": "https://mathinfo.unistra.fr/formations/master/informatique/image-et-3d-i3d/#data-rof-tab-cours",
+                    "Keywords": "Mod\u00e9lisation g\u00e9om\u00e9trique, rendu, traitement d'images, CAO, multim\u00e9dia",
+                    "University": "Universit\u00e9 de Strasbourg",
+                    "url-gouv": "https://www.trouvermonmaster.gouv.fr/master/universite-de-strasbourg/informatique-48?q=Informatique%20et%20Sciences%20de%20l%27Image&position=2&layout=1",
+                    "Diploma-domain": "Sciences, Technologies, Sant\u00e9",
+                    "Diploma-title": "Informatique",
+                    "Duration": 2
+                }
+            ]
+        },
+        "Toulouse": {
+            "main": [
+                {
+                    "Name": "IAFA",
+                    "Title": "Intelligence Artificielle : Fondements et Applications",
+                    "url": "https://departement-informatique.univ-tlse3.fr/master/master-informatique-2021-2026/",
+                    "Speciality": {
+                        "INF-IGAI": {
+                            "Title": "Informatique Graphique et Analyse d'Images",
+                            "url": "https://departement-informatique.univ-tlse3.fr/master-igai/",
+                            "Keywords": "Mod\u00e9lisation g\u00e9om\u00e9trique, rendu, animation, game design, vision, audio-visuel num\u00e9rique, traitement du signal"
+                        }
+                    },
+                    "University": "Universit\u00e9 Paul Sabatier",
+                    "url-gouv": "https://www.trouvermonmaster.gouv.fr/master/universite-toulouse-iii/informatique-24?q=toulouse%20informatique&position=0&layout=1",
+                    "Diploma-domain": "Sciences, Technologies, Sant\u00e9",
+                    "Diploma-title": "Informatique",
+                    "Duration": 2
+                }
+            ]
+        }
     }
 }

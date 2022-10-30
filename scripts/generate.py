@@ -86,16 +86,33 @@ def prettyMD_master(data, is_check_url):
     if is_check_url and url_class!='':
         checkurl(url_class)
 
+    url_gouv = get_optional('url-gouv', data)
+    if is_check_url and url_gouv!='':
+        checkurl(url_gouv)
+
     title = get_optional('Title',data)
     description = get_optional('Description', data)
     city_details = get_optional('City-detail',data)
     keywords = get_optional('Keywords', data )
     university = get_optional('University',data)
-
+    duration = get_optional('Duration', data)
+    
     international = False
     if 'International' in data:
         international = True
 
+
+    diploma_txt = ''
+    if 'Diploma-title' in data:
+        diploma_txt += data['Diploma-title']
+    if 'Diploma-domain' in data:
+        domain = data['Diploma-domain']
+        if domain!='Sciences, Technologies, Santé' and domain!='Sciences et technologies':
+            diploma_txt = domain + f' ({diploma_txt})'
+    if diploma_txt!='':
+        diploma_txt = 'Domaine du diplome: '+diploma_txt
+        if url_gouv!='':
+            diploma_txt = diploma_txt+f' &#91;[Lien]({url_gouv})&#93;'
 
 
     out += f'* **[&#91;{name}&#93;]({url})** - **{title}** \n'
@@ -103,9 +120,12 @@ def prettyMD_master(data, is_check_url):
     if international:
         out += display_optional("_(Master International entièrement en anglais)_")
     out += display_optional(city_details, pre='* Localisation précise: ')
+    if duration!='' and duration=='1':
+        out += f'  * M2 uniquement (pas de M1) \n'
     out += display_optional(url_class, pre='* [Listing des cours](',post=')')
     out += display_optional(keywords, pre='* Mot clés: _', post='_')
     out += display_optional(university, pre='* Universités partenaires: _', post='_')
+    out += display_optional(diploma_txt)
 
     if 'Speciality' in data:
         out += display_optional('Spécialité:')
@@ -146,19 +166,41 @@ def prettyMD(data, is_check_url):
     keys = sorted(list(data['Listing'].keys()))
     for k in tqdm.tqdm(range(len(keys))):
         city = keys[k]
+
+
+
         elements = data['Listing'][city]
 
         out += f'### {city} \n\n'
 
-        for element in elements:
-            try:
-                out += prettyMD_master(element, is_check_url)
-            except KeyError as keyError:
-                print('Key '+str(keyError)+' cannot be found in entry \n', element,'\n\n')
-            except Exception as e:
-                print("Undefined Problem with entry ",element)
-                print(e)
-                print()
+        for type in range(2):
+            
+            masters = []
+            if type==0 and 'main' in data['Listing'][city]:
+                masters = data['Listing'][city]['main']
+                if len(masters)>1:
+                    out += f'#### Masters spécialisés en IG \n\n'  
+                if len(masters)==1:
+                    out += f'#### Master spécialisé en IG \n\n'  
+            elif type==1 and 'other' in data['Listing'][city]:
+                masters = data['Listing'][city]['other']
+                if len(masters)>1:
+                    out += f'#### Autres masters (professionalisant ou visant d\'autres spécialités) proposant des cours en IG \n\n'
+                if len(masters)==1:
+                    out += f'#### Autre master (professionalisant ou visant une autre spécialité) proposant des cours en IG \n\n'
+                
+            
+            for element in masters:
+                try:
+                    out += prettyMD_master(element, is_check_url)
+                except KeyError as keyError:
+                    print('Key '+str(keyError)+' cannot be found in entry \n', element,'\n\n')
+                except Exception as e:
+                    print("Undefined Problem with entry ",element)
+                    print(e)
+                    print()
+
+
 
     
     return out
