@@ -9,6 +9,7 @@ import tqdm
 meta = {
     'filename_yaml': 'data.yaml',
     'filename_json_out': 'json/data.json',
+    'filename_html_out': 'html/index.html',
     'filename_md_out': 'README.md'
 }
 root_path = os.path.join(os.path.dirname(__file__))
@@ -72,19 +73,21 @@ def display_optional(s, indent=2, pre='* ', post='', bold=False, italic=False):
     else:
         return ''
 
-def prettyMD_master(name, data, is_check_url):
+def prettyMD_master(data, is_check_url):
     out = ''
     
 
-    
+    name = data['Name']
     url = data['url']
     if is_check_url:
         checkurl(url)
 
-
+    url_class = get_optional('url-class', data)
+    if is_check_url and url_class!='':
+        checkurl(url_class)
 
     title = get_optional('Title',data)
-    city = get_optional('City',data)
+    description = get_optional('Description', data)
     city_details = get_optional('City-detail',data)
     keywords = get_optional('Keywords', data )
     university = get_optional('University',data)
@@ -93,14 +96,14 @@ def prettyMD_master(name, data, is_check_url):
     if 'International' in data:
         international = True
 
-    city_txt = city
-    if city_details!='':
-        city_txt = city+', '+city_details
 
-    out += f'* **[&#91;{name}&#93;]({url})** - **{title}** ({city_txt}) \n'
+
+    out += f'* **[&#91;{name}&#93;]({url})** - **{title}** \n'
+    out += display_optional(description, italic=True)
     if international:
-        out += display_optional("_Master International entièrement en anglais_")
-
+        out += display_optional("_(Master International entièrement en anglais)_")
+    out += display_optional(city_details, pre='* Localisation précise: ')
+    out += display_optional(url_class, pre='* [Listing des cours](',post=')')
     out += display_optional(keywords, pre='* Mot clés: _', post='_')
     out += display_optional(university, pre='* Universités partenaires: _', post='_')
 
@@ -122,7 +125,7 @@ def prettyMD_master(name, data, is_check_url):
 
 
 
-    out += '\n\n'
+        out += '\n\n'
 
     return out
 
@@ -141,21 +144,32 @@ def prettyMD(data, is_check_url):
 
     keys = sorted(list(data['Listing'].keys()))
     for k in tqdm.tqdm(range(len(keys))):
-        name = keys[k]
-        element = data['Listing'][name]
+        city = keys[k]
+        elements = data['Listing'][city]
 
-        try:
-            out += prettyMD_master(name, element, is_check_url)
-        except KeyError as keyError:
-            print('Key '+str(keyError)+' cannot be found in entry \n', element,'\n\n')
-        except Exception as e:
-            print("Undefined Problem with entry ",element)
-            print(e)
-            print()
+        out += f'### {city} \n\n'
+
+        for element in elements:
+            try:
+                out += prettyMD_master(element, is_check_url)
+            except KeyError as keyError:
+                print('Key '+str(keyError)+' cannot be found in entry \n', element,'\n\n')
+            except Exception as e:
+                print("Undefined Problem with entry ",element)
+                print(e)
+                print()
 
     
     return out
 
+def export_html_static(data):
+
+    print("html")    
+    #Sort by city:
+    # for name in data['Listing']:
+    #     city = data['Listing'][name]['City']
+    #     print(name, city)
+    
 
 
 
@@ -169,6 +183,7 @@ if __name__ == "__main__":
 
     filename_yaml = root_path+'/../'+meta['filename_yaml']
     filename_json_out = root_path+'/../'+meta['filename_json_out']
+    filename_html_out = root_path+'/../'+meta['filename_html_out']
     filename_md_out = root_path+'/../'+meta['filename_md_out']
 
 
@@ -182,3 +197,5 @@ if __name__ == "__main__":
     with open(filename_md_out, 'w') as md_fid:
         mdTXT = prettyMD(data, is_check_url)
         md_fid.write(mdTXT)
+    
+    export_html_static(data)
