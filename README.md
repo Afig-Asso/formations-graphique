@@ -23,7 +23,7 @@
 #### Master spécialisé en IG 
 
 * **[&#91;IIA&#93;](https://www.u-bourgogne.fr/images/stories/odf/master/ff-image-intelligence-artificielle-m2.pdf)** - **Image et Intelligence Artificielle** 
-  * _Master spécialisé devant être précédé d'un M1 généraliste en informatique (alternance possible sur les 2 ans)._
+  * _Master spécialisé, alternance possible sur les 2 ans._
   * (année de M2 uniquement) 
   * Mot clés: _analyse et synthèse d'images, reconstruction 3D, animation, réalité virtuelle et augmentée, outils de l'intelligence artificielle, imagerie médicale, modélisation géométrique._
   * Universités partenaires: _Université de Bourgogne_
