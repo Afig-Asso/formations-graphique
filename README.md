@@ -23,8 +23,9 @@
 #### Master spécialisé en IG 
 
 * **[&#91;IIA&#93;](https://www.u-bourgogne.fr/images/stories/odf/master/ff-image-intelligence-artificielle-m2.pdf)** - **Image et Intelligence Artificielle** 
-  * M2 uniquement (pas de M1) 
-  * Mot clés: _analyse et synthèse d'images, reconstruction 3D, animation, réalité virtuelle et augmentée, outils de l'intelligence artificielle._
+  * _Master spécialisé devant être précédé d'un M1 généraliste en informatique (alternance possible sur les 2 ans)._
+  * (année de M2 uniquement) 
+  * Mot clés: _analyse et synthèse d'images, reconstruction 3D, animation, réalité virtuelle et augmentée, outils de l'intelligence artificielle, imagerie médicale, modélisation géométrique._
   * Universités partenaires: _Université de Bourgogne_
   * Domaine du diplome: Informatique &#91;[Lien](https://www.trouvermonmaster.gouv.fr/master/universite-de-dijon/informatique-7?q=informatique%20dijon&position=0&layout=1)&#93;
 ### Grenoble 
@@ -62,7 +63,7 @@
 
 * **[&#91;Gamagora&#93;](https://icom.univ-lyon2.fr/formation/master-2-informatique-gamagora-1)** - **Ingénierie du jeu vidéo** 
   * _M2 dédié à la programmation techniques de jeux vidéos ainsi qu'aux approches graphiques de modélisation et animation._
-  * M2 uniquement (pas de M1) 
+  * (année de M2 uniquement) 
   * Mot clés: _jeux vidéos, rendu, IA, moteur physique_
   * Universités partenaires: _Université Lumière Lyon 2_
   * Domaine du diplome: Informatique &#91;[Lien](https://www.trouvermonmaster.gouv.fr/master/universite-lyon-ii/informatique-20?q=gamagora&position=0&layout=1)&#93;
@@ -104,14 +105,14 @@
 * **[&#91;VAR&#93;](https://www.ip-paris.fr/en/education/masters/electrical-engineering-program/master-year-2-virtual-augmented-reality)** - **Virtual &amp; Augmented Reality** 
   * _Master en Electronique de l'IP Paris/Telecom Sud Paris en Vision, Réalité Virtuelle et Augmentée. Quelques cours fondamentaux en Informatique Graphique._
   * Localisation précise: Palaiseau
-  * M2 uniquement (pas de M1) 
+  * (année de M2 uniquement) 
   * Mot clés: _Réalité Virtuelle, Traitement d'Images, Reconstruction 3D_
   * Universités partenaires: _IP Paris, Telecom Sud Paris_
   * Domaine du diplome: Electronique, énergie électrique, automatique &#91;[Lien](https://www.trouvermonmaster.gouv.fr/master/institut-polytechnique-de-paris/electronique-energie-electrique-automatique-25?q=Virtual%20Augmented%20Reality&position=0&layout=1)&#93;
 * **[&#91;RVSI&#93;](https://www.universite-paris-saclay.fr/en/education/master/electrical-engineering/m2-virtual-reality-and-intelligent-systems)** - **Réalité Virtuelle et Systèmes Intelligents** 
   * _Master en Electronique de l'Université Paris-Sacaly/Telecom Sud Paris (à Evry) en Réalité Virtuelle et Vision._
   * Localisation précise: Evry
-  * M2 uniquement (pas de M1) 
+  * (année de M2 uniquement) 
   * Mot clés: _Vision par ordinateur, réalité augmentée, interaction multi sensorielle, réalité virtuelle_
   * Universités partenaires: _Université Paris-Saclay, ENSIIE, Université d'Evry, Télécom SudParis_
   * Domaine du diplome: Electronique, énergie électrique, automatique &#91;[Lien](https://www.trouvermonmaster.gouv.fr/master/universite-paris-saclay-1/electronique-energie-electrique-automatique-12?q=R%C3%A9alit%C3%A9%20Virtuelle%20et%20Syst%C3%A8mes%20Intelligents&position=0&layout=1)&#93;
@@ -124,7 +125,7 @@
 * **[&#91;MVA&#93;](http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/)** - **Mathématique, Vision, Apprentissage** 
   * _Master en Mathématique de Paris Saclay/ENS Paris-Saclay. Master a forte composante théorique en Vision et Apprentisage. Propose quelques cours en géométrie 3D et analyse de forme._
   * Localisation précise: Gif sur Yvette
-  * M2 uniquement (pas de M1) 
+  * (année de M2 uniquement) 
   * Mot clés: _Vision, Apprentissage, Analyse d'Image, Image Médicale, Géométrie_
   * Universités partenaires: _Université Paris Saclay: ENS Paris-Saclay, CentraleSupélec, Mines ParisTech_
   * Domaine du diplome: Mathématiques et applications &#91;[Lien](https://www.trouvermonmaster.gouv.fr/master/universite-paris-viii/creation-numerique-1?q=Arts%20et%20Technologies%20de%20l%27Image%20virtuelle&layout=1&position=0)&#93;

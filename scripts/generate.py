@@ -151,7 +151,7 @@ def prettyMD_master(data):
         out += display_optional("_(Master International entièrement en anglais)_")
     out += display_optional(city_details, pre='* Localisation précise: ')
     if duration!='' and duration=='1':
-        out += f'  * M2 uniquement (pas de M1) \n'
+        out += f'  * (année de M2 uniquement) \n'
     out += display_optional(url_class, pre='* [Listing des cours](',post=')')
     out += display_optional(keywords, pre='* Mot clés: _', post='_')
     out += display_optional(university, pre='* Universités partenaires: _', post='_')
