@@ -40,7 +40,7 @@ Listing:
   
   Bordeaux:
     main:
-      - Name: IIS
+      - Name: II
         Title: Informatique pour l'Image et le Son
         url: https://masterinfo.emi.u-bordeaux.fr/wiki/doku.php?id=iis
         Keywords: Modélisation, Rendu, Modélisation, Réalité virtuelle, Reconstruction, Traitement du son et de la musique.
