@@ -18,6 +18,14 @@
   * Mot clés: _Jeux Vidéos, Game Design, Ergonomie, Conception visuelle, Interface._
   * Universités partenaires: _CNAM, ENJMIN_
   * Domaine du diplome: Sciences humaines et sociales (Audiovisuel, médias interactifs numériques, jeux) &#91;[Lien](https://www.trouvermonmaster.gouv.fr/master/conservatoire-national-des-arts-et-metiers/audiovisuel-medias-interactifs-numeriques-jeux-3?q=jeux%20et%20M%C3%A9dias%20Interactifs%20Num%C3%A9riques&position=3&layout=1)&#93;
+### Bordeaux 
+
+#### Master spécialisé en IG 
+
+* **[&#91;IIS&#93;](https://masterinfo.emi.u-bordeaux.fr/wiki/doku.php?id=iis)** - **Informatique pour l'Image et le Son** 
+  * Mot clés: _Modélisation, Rendu, Modélisation, Réalité virtuelle, Reconstruction, Traitement du son et de la musique._
+  * Universités partenaires: _Université de Bordeaux_
+  * Domaine du diplome: Informatique &#91;[Lien](https://www.trouvermonmaster.gouv.fr/master/universite-de-bordeaux/informatique-1?q=universit%C3%A9%20de%20bordeaux&p=6&position=66&layout=1)&#93;
 ### Dijon 
 
 #### Master spécialisé en IG 

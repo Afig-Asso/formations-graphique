@@ -17,6 +17,21 @@
                 }
             ]
         },
+        "Bordeaux": {
+            "main": [
+                {
+                    "Name": "IIS",
+                    "Title": "Informatique pour l'Image et le Son",
+                    "url": "https://masterinfo.emi.u-bordeaux.fr/wiki/doku.php?id=iis",
+                    "Keywords": "Mod\u00e9lisation, Rendu, Mod\u00e9lisation, R\u00e9alit\u00e9 virtuelle, Reconstruction, Traitement du son et de la musique.",
+                    "University": "Universit\u00e9 de Bordeaux",
+                    "url-gouv": "https://www.trouvermonmaster.gouv.fr/master/universite-de-bordeaux/informatique-1?q=universit%C3%A9%20de%20bordeaux&p=6&position=66&layout=1",
+                    "Diploma-domain": "Sciences, Technologies, Sant\u00e9",
+                    "Diploma-title": "Informatique",
+                    "Duration": 2
+                }
+            ]
+        },
         "Dijon": {
             "main": [
                 {
