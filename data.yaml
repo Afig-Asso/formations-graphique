@@ -37,6 +37,19 @@ Listing:
         Diploma-domain: Sciences humaines et sociales
         Diploma-title: Audiovisuel, médias interactifs numériques, jeux
         Duration: 2
+  
+  Bordeaux:
+    main:
+      - Name: IIS
+        Title: Informatique pour l'Image et le Son
+        url: https://masterinfo.emi.u-bordeaux.fr/wiki/doku.php?id=iis
+        Keywords: Modélisation, Rendu, Modélisation, Réalité virtuelle, Reconstruction, Traitement du son et de la musique.
+        University: "Université de Bordeaux"
+        url-gouv: https://www.trouvermonmaster.gouv.fr/master/universite-de-bordeaux/informatique-1?q=universit%C3%A9%20de%20bordeaux&p=6&position=66&layout=1
+        Diploma-domain: Sciences, Technologies, Santé
+        Diploma-title: Informatique
+        Duration: 2
+
 
   Dijon:
     main:
