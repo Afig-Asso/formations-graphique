@@ -64,13 +64,14 @@ def is_url_valid(url):
     else:
         return True
 
-def check_urls(urls, exitOnError=False):
+def check_urls(urls, exitOnError=False, exceptions={}):
     success = True
     print('Check urls ...')
     for url in tqdm.tqdm(urls):
-        ret = is_url_valid(url)
-        if ret!=True:
-            success=False
+        if url not in exceptions:
+            ret = is_url_valid(url)
+            if ret!=True:
+                success=False
 
     if exitOnError==True and success==False:
         print("Exit due to Error")
@@ -267,7 +268,8 @@ if __name__ == "__main__":
    
     if is_check_url:
         urls = get_all_urls(data)
-        check_urls(urls, exitOnError=exit_on_failure)
+        exceptions = {'https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/master-XB/master-informatique-IAQK9B8Z/parcours-master-of-science-in-informatics-at-grenoble-mosig-IB9GGIRD.html'}
+        check_urls(urls, exitOnError=exit_on_failure, exceptions=exceptions)
 
     # export json
     print('[Export JSON]')
