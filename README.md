@@ -155,7 +155,7 @@
 #### Master spécialisé en IG 
 
 * **[&#91;I3d&#93;](http://master-informatique.unistra.fr/doku.php?id=formation:i3d)** - **Image et 3D** 
-  * [Listing des cours](https://mathinfo.unistra.fr/formations/master/informatique/image-et-3d-i3d/#data-rof-tab-cours)
+  * [Listing des cours](https://mathinfo.unistra.fr/formations/master/master-informatique/image-et-3d-i3d#data-rof-tab-cours)
   * Mot clés: _Modélisation géométrique, rendu, traitement d'images, CAO, multimédia_
   * Universités partenaires: _Université de Strasbourg_
   * Domaine du diplome: Informatique &#91;[Lien](https://www.monmaster.gouv.fr/master/universite-de-strasbourg/informatique-48?q=Informatique%20et%20Sciences%20de%20l%27Image&position=2&layout=1)&#93;
