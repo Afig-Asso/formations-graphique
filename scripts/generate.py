@@ -268,7 +268,7 @@ if __name__ == "__main__":
    
     if is_check_url:
         urls = get_all_urls(data)
-        exceptions = {'https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/master-XB/master-informatique-IAQK9B8Z/parcours-master-of-science-in-informatics-at-grenoble-mosig-IB9GGIRD.html'}
+        exceptions = {'https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/master-XB/master-informatique-IAQK9B8Z/parcours-master-of-science-in-informatics-at-grenoble-mosig-IB9GGIRD.html', 'http://master.irisa.fr/courses/index-rennes.php'}
         check_urls(urls, exitOnError=exit_on_failure, exceptions=exceptions)
 
     # export json
