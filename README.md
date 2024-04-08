@@ -126,7 +126,7 @@
   * Domaine du diplome: Electronique, énergie électrique, automatique &#91;[Lien](https://www.monmaster.gouv.fr/master/universite-paris-saclay-1/electronique-energie-electrique-automatique-12?q=R%C3%A9alit%C3%A9%20Virtuelle%20et%20Syst%C3%A8mes%20Intelligents&position=0&layout=1)&#93;
 * **[&#91;ATI&#93;](https://www.univ-paris8.fr/-Master-Arts-et-Technologies-de-l-Image-virtuelle-630-)** - **Arts et Technologies de l'Image virtuelle** 
   * _Master à l'interface entre art et informatique. Composante principale orientée infographie et création artistique technique, soutenu par des cours de programmation pour du graphique temps réel._
-  * [Listing des cours](https://www.univ-paris8.fr/IMG/pdf/org_ens_m_ati.pdf)
+  * [Listing des cours](https://www.univ-paris8.fr/IMG/pdf/org_ens_m_ati_2024.pdf)
   * Mot clés: _Infographie, Temps réel, Recherche-création, Art numérique_
   * Universités partenaires: _Université Paris 8_
   * Domaine du diplome: Arts, Lettres, Langues (Création numérique) &#91;[Lien](https://www.monmaster.gouv.fr/master/universite-paris-viii/creation-numerique-1?q=Arts%20et%20Technologies%20de%20l%27Image%20virtuelle&layout=1&position=0)&#93;
