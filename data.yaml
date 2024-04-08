@@ -254,12 +254,8 @@ Listing:
     main:
       - Name: IAFA
         Title: "Intelligence Artificielle : Fondements et Applications"
-        url: https://departement-informatique.univ-tlse3.fr/master/master-informatique-2021-2026/
-        Speciality: 
-          INF-IGAI:
-            Title: "Informatique Graphique et Analyse d'Images"
-            url: https://departement-informatique.univ-tlse3.fr/master-igai/
-            Keywords: Modélisation géométrique, rendu, animation, game design, vision, audio-visuel numérique, traitement du signal
+        url: https://www.univ-tlse3.fr/decouvrir-nos-diplomes/master-parcours-intelligence-artificielle-fondements-et-applications-iafa
+        Keywords: Modélisation géométrique, rendu, animation, game design, vision, audio-visuel numérique, traitement du signal
         University: Université Paul Sabatier
         url-gouv: https://www.monmaster.gouv.fr/master/universite-toulouse-iii/informatique-24?q=toulouse%20informatique&position=0&layout=1
         Diploma-domain: Sciences, Technologies, Santé

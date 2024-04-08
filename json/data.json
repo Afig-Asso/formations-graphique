@@ -272,14 +272,8 @@
                 {
                     "Name": "IAFA",
                     "Title": "Intelligence Artificielle : Fondements et Applications",
-                    "url": "https://departement-informatique.univ-tlse3.fr/master/master-informatique-2021-2026/",
-                    "Speciality": {
-                        "INF-IGAI": {
-                            "Title": "Informatique Graphique et Analyse d'Images",
-                            "url": "https://departement-informatique.univ-tlse3.fr/master-igai/",
-                            "Keywords": "Mod\u00e9lisation g\u00e9om\u00e9trique, rendu, animation, game design, vision, audio-visuel num\u00e9rique, traitement du signal"
-                        }
-                    },
+                    "url": "https://www.univ-tlse3.fr/decouvrir-nos-diplomes/master-parcours-intelligence-artificielle-fondements-et-applications-iafa",
+                    "Keywords": "Mod\u00e9lisation g\u00e9om\u00e9trique, rendu, animation, game design, vision, audio-visuel num\u00e9rique, traitement du signal",
                     "University": "Universit\u00e9 Paul Sabatier",
                     "url-gouv": "https://www.monmaster.gouv.fr/master/universite-toulouse-iii/informatique-24?q=toulouse%20informatique&position=0&layout=1",
                     "Diploma-domain": "Sciences, Technologies, Sant\u00e9",

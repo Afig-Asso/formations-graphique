@@ -163,11 +163,7 @@
 
 #### Master spécialisé en IG 
 
-* **[&#91;IAFA&#93;](https://departement-informatique.univ-tlse3.fr/master/master-informatique-2021-2026/)** - **Intelligence Artificielle : Fondements et Applications** 
+* **[&#91;IAFA&#93;](https://www.univ-tlse3.fr/decouvrir-nos-diplomes/master-parcours-intelligence-artificielle-fondements-et-applications-iafa)** - **Intelligence Artificielle : Fondements et Applications** 
+  * Mot clés: _Modélisation géométrique, rendu, animation, game design, vision, audio-visuel numérique, traitement du signal_
   * Universités partenaires: _Université Paul Sabatier_
   * Domaine du diplome: Informatique &#91;[Lien](https://www.monmaster.gouv.fr/master/universite-toulouse-iii/informatique-24?q=toulouse%20informatique&position=0&layout=1)&#93;
-  * Spécialité:
-    * **[&#91;INF-IGAI&#93;](https://departement-informatique.univ-tlse3.fr/master-igai/)** - **Informatique Graphique et Analyse d'Images**
-      * Mots clés: _Modélisation géométrique, rendu, animation, game design, vision, audio-visuel numérique, traitement du signal_
-
-
