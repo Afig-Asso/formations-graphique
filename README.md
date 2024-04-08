@@ -164,6 +164,7 @@
 #### Master spécialisé en IG 
 
 * **[&#91;IAFA&#93;](https://www.univ-tlse3.fr/decouvrir-nos-diplomes/master-parcours-intelligence-artificielle-fondements-et-applications-iafa)** - **Intelligence Artificielle : Fondements et Applications** 
+  * [Listing des cours](https://www.univ-tlse3.fr/syllabus/SYL_M2_INF_IAFA.pdf)
   * Mot clés: _Modélisation géométrique, rendu, animation, game design, vision, audio-visuel numérique, traitement du signal_
   * Universités partenaires: _Université Paul Sabatier_
   * Domaine du diplome: Informatique &#91;[Lien](https://www.monmaster.gouv.fr/master/universite-toulouse-iii/informatique-24?q=toulouse%20informatique&position=0&layout=1)&#93;
