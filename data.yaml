@@ -147,8 +147,8 @@ Listing:
         Diploma-title: Informatique
         Duration: 2
 
-      - Name: Ai-ViC
-        Title: Artificial Intelligence and advanced Visual Computing
+      - Name: ViC-AI
+        Title: Visual and Creative Artificial Intelligence
         City-detail: Palaiseau
         url: https://programmes.polytechnique.edu/en/master/all-msct-programs/artificial-intelligence-advanced-visual-computing-master
         url-class: https://programmes.polytechnique.edu/en/master-all-msct-programs/artificial-intelligence-advanced-visual-computing/course-content
@@ -156,6 +156,15 @@ Listing:
         Keywords: Advanced 3D Graphics, Learning for Vision and 3D Geometry, Deep and Reinforcement Learning, Autonomous agents, Robotics, Interaction and VR/AR.
         University: "Ecole Polytechnique"
         Description: "Master of Science and Technology (MsC&amp;T) de l'Ecole Polytechnique mixant Informatique et Mathématique Appliqués pour des applications avancés en Graphique, Vision, et Robotique avec une composante IA et apprentissage. Les MsC&amp;T sont des formations de grade Master, à mi-chemin entre un master recherche et une formation d'ingénieur intégrant des formations transverses, d'éthique, et du sport."
+      - Name: EXcin
+        Title: Science and Technologies in Extended Cinematography (Apprentissage)
+        City-detail: Palaiseau
+        url: https://programmes.polytechnique.edu/master/parcours/science-technology-in-extended-cinematography-excin
+        url-class: https://programmes.polytechnique.edu/master-parcours/science-technology-in-extended-cinematography-excin/descriptif-des-cours
+        International:
+        Keywords: Computer Graphics, Visual Production, VFX, Real-time rendering, Augmented Reality, Animation and Simulation, Capture and 3D reconstruction, Generative AI, Audio-Visual and Creative Industries.
+        University: "Ecole Polytechnique"
+        Description: "Le Master (en apprentissage) of Science and Technology en Extended Cinematography (MSc&T XCin) de l'École Polytechnique forme des spécialistes en cinématographie numérique, production virtuelle et médias immersifs. Le programme associe enseignement scientifique, technologique et artistique, en lien avec l'industrie du cinéma et de l'audiovisuel. La première année établit les bases en informatique graphique, modélisation, animation, rendu et intelligence artificielle appliquée. La deuxième année approfondit la production 3D, la capture de mouvement, les effets visuels et la réalité augmentée. Les diplômés sont préparés à évoluer dans les domaines du cinéma numérique, de la production virtuelle et de la création audiovisuelle interactive."
     other:
       - Name: IMA
         Title: Image, vision par ordinateur, informatique graphique

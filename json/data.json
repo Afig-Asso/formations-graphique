@@ -150,8 +150,8 @@
                     "Duration": 2
                 },
                 {
-                    "Name": "Ai-ViC",
-                    "Title": "Artificial Intelligence and advanced Visual Computing",
+                    "Name": "ViC-AI",
+                    "Title": "Visual and Creative Artificial Intelligence",
                     "City-detail": "Palaiseau",
                     "url": "https://programmes.polytechnique.edu/en/master/all-msct-programs/artificial-intelligence-advanced-visual-computing-master",
                     "url-class": "https://programmes.polytechnique.edu/en/master-all-msct-programs/artificial-intelligence-advanced-visual-computing/course-content",
@@ -159,6 +159,17 @@
                     "Keywords": "Advanced 3D Graphics, Learning for Vision and 3D Geometry, Deep and Reinforcement Learning, Autonomous agents, Robotics, Interaction and VR/AR.",
                     "University": "Ecole Polytechnique",
                     "Description": "Master of Science and Technology (MsC&amp;T) de l'Ecole Polytechnique mixant Informatique et Math\u00e9matique Appliqu\u00e9s pour des applications avanc\u00e9s en Graphique, Vision, et Robotique avec une composante IA et apprentissage. Les MsC&amp;T sont des formations de grade Master, \u00e0 mi-chemin entre un master recherche et une formation d'ing\u00e9nieur int\u00e9grant des formations transverses, d'\u00e9thique, et du sport."
+                },
+                {
+                    "Name": "EXcin",
+                    "Title": "Science and Technologies in Extended Cinematography (Apprentissage)",
+                    "City-detail": "Palaiseau",
+                    "url": "https://programmes.polytechnique.edu/master/parcours/science-technology-in-extended-cinematography-excin",
+                    "url-class": "https://programmes.polytechnique.edu/master-parcours/science-technology-in-extended-cinematography-excin/descriptif-des-cours",
+                    "International": null,
+                    "Keywords": "Computer Graphics, Visual Production, VFX, Real-time rendering, Augmented Reality, Animation and Simulation, Capture and 3D reconstruction, Generative AI, Audio-Visual and Creative Industries.",
+                    "University": "Ecole Polytechnique",
+                    "Description": "Le Master (en apprentissage) of Science and Technology en Extended Cinematography (MSc&T XCin) de l'\u00c9cole Polytechnique forme des sp\u00e9cialistes en cin\u00e9matographie num\u00e9rique, production virtuelle et m\u00e9dias immersifs. Le programme associe enseignement scientifique, technologique et artistique, en lien avec l'industrie du cin\u00e9ma et de l'audiovisuel. La premi\u00e8re ann\u00e9e \u00e9tablit les bases en informatique graphique, mod\u00e9lisation, animation, rendu et intelligence artificielle appliqu\u00e9e. La deuxi\u00e8me ann\u00e9e approfondit la production 3D, la capture de mouvement, les effets visuels et la r\u00e9alit\u00e9 augment\u00e9e. Les dipl\u00f4m\u00e9s sont pr\u00e9par\u00e9s \u00e0 \u00e9voluer dans les domaines du cin\u00e9ma num\u00e9rique, de la production virtuelle et de la cr\u00e9ation audiovisuelle interactive."
                 }
             ],
             "other": [

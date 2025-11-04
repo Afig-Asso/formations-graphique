@@ -95,12 +95,19 @@
   * Mot clés: _Computer Graphics, Interactive 3D application, Computer Animation, Geometry Processing, Games, HMI, Interface._
   * Universités partenaires: _IP Paris: Telecom Paris, Ecole Polytechnique, Telecom Sud Paris_
   * Domaine du diplome: Informatique &#91;[Lien](https://www.monmaster.gouv.fr/master/institut-polytechnique-de-paris/informatique-65?q=Graphics&position=1&layout=1)&#93;
-* **[&#91;Ai-ViC&#93;](https://programmes.polytechnique.edu/en/master/all-msct-programs/artificial-intelligence-advanced-visual-computing-master)** - **Artificial Intelligence and advanced Visual Computing** 
+* **[&#91;ViC-AI&#93;](https://programmes.polytechnique.edu/en/master/all-msct-programs/artificial-intelligence-advanced-visual-computing-master)** - **Visual and Creative Artificial Intelligence** 
   * _Master of Science and Technology (MsC&amp;T) de l'Ecole Polytechnique mixant Informatique et Mathématique Appliqués pour des applications avancés en Graphique, Vision, et Robotique avec une composante IA et apprentissage. Les MsC&amp;T sont des formations de grade Master, à mi-chemin entre un master recherche et une formation d'ingénieur intégrant des formations transverses, d'éthique, et du sport._
   * _(Master International entièrement en anglais)_
   * Localisation précise: Palaiseau
   * [Listing des cours](https://programmes.polytechnique.edu/en/master-all-msct-programs/artificial-intelligence-advanced-visual-computing/course-content)
   * Mot clés: _Advanced 3D Graphics, Learning for Vision and 3D Geometry, Deep and Reinforcement Learning, Autonomous agents, Robotics, Interaction and VR/AR._
+  * Universités partenaires: _Ecole Polytechnique_
+* **[&#91;EXcin&#93;](https://programmes.polytechnique.edu/master/parcours/science-technology-in-extended-cinematography-excin)** - **Science and Technologies in Extended Cinematography (Apprentissage)** 
+  * _Le Master (en apprentissage) of Science and Technology en Extended Cinematography (MSc&T XCin) de l'École Polytechnique forme des spécialistes en cinématographie numérique, production virtuelle et médias immersifs. Le programme associe enseignement scientifique, technologique et artistique, en lien avec l'industrie du cinéma et de l'audiovisuel. La première année établit les bases en informatique graphique, modélisation, animation, rendu et intelligence artificielle appliquée. La deuxième année approfondit la production 3D, la capture de mouvement, les effets visuels et la réalité augmentée. Les diplômés sont préparés à évoluer dans les domaines du cinéma numérique, de la production virtuelle et de la création audiovisuelle interactive._
+  * _(Master International entièrement en anglais)_
+  * Localisation précise: Palaiseau
+  * [Listing des cours](https://programmes.polytechnique.edu/master-parcours/science-technology-in-extended-cinematography-excin/descriptif-des-cours)
+  * Mot clés: _Computer Graphics, Visual Production, VFX, Real-time rendering, Augmented Reality, Animation and Simulation, Capture and 3D reconstruction, Generative AI, Audio-Visual and Creative Industries._
   * Universités partenaires: _Ecole Polytechnique_
 #### Autres masters (professionalisant ou visant d'autres spécialités) proposant des cours en IG 
 
