@@ -32,10 +32,9 @@
 
 * **[&#91;IIA&#93;](https://formations.ube.fr/fr/offre-de-formation/master-XB/master-informatique-LMGC26NA/image-et-intelligence-artificielle-LMGEPLSF.html)** - **Image et Intelligence Artificielle** 
   * _Master spécialisé, alternance possible sur les 2 ans._
-  * (spécialité de M2 uniquement) 
   * Mot clés: _analyse et synthèse d'images, reconstruction 3D, animation, réalité virtuelle et augmentée, outils de l'intelligence artificielle, imagerie médicale, modélisation géométrique._
-  * Universités partenaires: _Université de Bourgogne_
-  * Domaine du diplome: Informatique &#91;[Lien](https://www.monmaster.gouv.fr/master/universite-de-dijon/informatique-7?q=informatique%20dijon&position=0&layout=1)&#93;
+  * Universités partenaires: _Université Bourgogne Europe (UBE)_
+  * Domaine du diplome: Informatique &#91;[Lien](https://monmaster.gouv.fr/formation/0212296G/1702917XY3EN/mention)&#93;
 ### Grenoble 
 
 #### Master spécialisé en IG 
